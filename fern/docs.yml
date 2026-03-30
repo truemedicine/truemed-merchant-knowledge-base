@@ -1,0 +1,24 @@
+instances:
+  - url: truemed-merchants.docs.buildwithfern.com
+
+title: Truemed Merchant Help Center
+
+navigation:
+  - section: Getting Started
+    contents:
+      - page: Overview
+        path: ./pages/overview.mdx
+```
+Commit to main.
+
+---
+
+**Step 4: Create `fern/pages/overview.mdx`**
+
+Add file → Create new file → name it `fern/pages/overview.mdx`:
+```
+---
+title: Overview
+---
+
+Welcome to the Truemed Merchant Help Center.
