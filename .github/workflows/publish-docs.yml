@@ -1,0 +1,21 @@
+name: Publish Docs
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+      - name: Install Fern CLI
+        run: npm install -g fern-api
+      - name: Publish Docs
+        run: fern generate --docs
+        env:
+          FERN_TOKEN: ${{ secrets.FERN_KB_SECRET }}
