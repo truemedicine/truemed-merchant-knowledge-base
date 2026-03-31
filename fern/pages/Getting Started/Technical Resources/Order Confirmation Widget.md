@@ -1,3 +1,7 @@
+---
+title: "Order Confirmation Widget"
+---
+
 *These instructions are specific to reimbursement implementations. They are not necessary to support the Truemed payment app.*
 
 ### **Encourage HSA / FSA reimbursement immediately post-purchase**
@@ -35,5 +39,5 @@ It's also easy to add this CTA on any store:
 2. On your post-purchase page, add a CTA with the following code:
 
    ```
-This order might be eligible for HSA/FSA reimbursement. <a href="YOUR_QUALIFICATION_LINK?source=post_purchase">Get Reimbursed</a>.
+This order might be eligible for HSA/FSA reimbursement. Get Reimbursed.
 ```
