@@ -1,6 +1,6 @@
 ---
-title: "FAQ Page Updates"
----
+title: "FAQ Page Updates"---
+
 
 
 ![](https://cdn.applied.guide/media/886214b8-01bd-4c9d-8591-1d6ccbcc8c0e/8861568e-fc5c-4ee8-ba29-0973583fb323.jpeg)**How long this should take:**

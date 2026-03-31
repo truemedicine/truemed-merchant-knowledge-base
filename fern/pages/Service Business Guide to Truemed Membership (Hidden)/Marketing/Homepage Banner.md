@@ -1,6 +1,6 @@
 ---
-title: "Homepage Banner"
----
+title: "Homepage Banner"---
+
 
 *Banners offer a quick, high-visibility way to announce HSA/FSA eligibility during critical spending seasons. Use the one-liners below to create compliant homepage banners that promote the HSA/FSA payment option on your site*
 
