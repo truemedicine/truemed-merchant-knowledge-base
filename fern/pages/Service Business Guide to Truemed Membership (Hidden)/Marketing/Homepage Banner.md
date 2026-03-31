@@ -1,11 +1,3 @@
----
-title: "Homepage Banner"---
-
-
-*Banners offer a quick, high-visibility way to announce HSA/FSA eligibility during critical spending seasons. Use the one-liners below to create compliant homepage banners that promote the HSA/FSA payment option on your site*
-
----
-
 ![](https://cdn.applied.guide/media/886214b8-01bd-4c9d-8591-1d6ccbcc8c0e/cb164fe1-b282-4c69-a13f-588780c841fc.png)
 
 ## **Year-Round Banner Copy:**
@@ -45,9 +37,7 @@ For site banners, you can include the disclaimer just above your footer navigati
 > \*Truemed is for qualified customers. HSA/FSA tax savings vary. Learn more at [truemed.com/disclosures](https://docs.google.com/document/d/19Cxl1ZbXTX25_44rZ8Mbj3nKfsuzmHVOXm7uYuVKewk/edit?tab=t.0#heading=h.8fnbt71wtlyg)
 
 For site banners, you can include the disclaimer just above your footer navigation. If the disclaimer is missing, we may ask you to update or remove the asset. 
-
----
-
+***
 ## **End-of-Year / FSA Expiration (Dec)**
 
 **Sample Banner Copy:**
@@ -65,9 +55,7 @@ For site banners, you can include the disclaimer just above your footer navigati
 > \*Truemed is for qualified customers. HSA/FSA tax savings vary. Learn more at [truemed.com/disclosures](https://docs.google.com/document/d/19Cxl1ZbXTX25_44rZ8Mbj3nKfsuzmHVOXm7uYuVKewk/edit?tab=t.0#heading=h.8fnbt71wtlyg)
 
 For site banners, you can include the disclaimer just above your footer navigation. If the disclaimer is missing, we may ask you to update or remove the asset. 
-
----
-
+***
 ## **New Year, New You (Jan–Feb)**
 
 **Sample Banner Copy:**
@@ -88,7 +76,7 @@ For site banners, you can include the disclaimer just above your footer navigati
 
 For site banners, you can include the disclaimer just above your footer navigation. If the disclaimer is missing, we may ask you to update or remove the asset. 
 
-### **\
+### **
 Compliance Reminder**
 
 Following Truemed’s compliance guidelines protects customers from misleading claims and keeps your brand aligned with IRS/HSA/FSA rules, reducing the risk of ad rejections or takedowns. It also preserves trust and lowers the chance of disputes or chargebacks by setting accurate expectations about eligibility and savings.
