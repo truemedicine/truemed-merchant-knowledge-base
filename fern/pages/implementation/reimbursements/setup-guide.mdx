@@ -1,6 +1,196 @@
 ---
 title: Setup Guide
-description: Step-by-step guide to setting up the Truemed reimbursement integration.
+description: How to set up Truemed's post-purchase reimbursement flow for subscription products, non-Shopify storefronts, or alongside direct HSA/FSA card payments.
 ---
 
-This article is coming soon.
+This guide walks you through setting up Truemed's post-purchase reimbursement flow. This integration is for merchants who sell subscription products, don't have a Shopify storefront, or want to offer HSA/FSA reimbursement alongside (or instead of) direct HSA/FSA card payments.
+
+---
+
+## How the Reimbursement Flow Works
+
+Instead of paying directly with an HSA/FSA card at checkout, your customers:
+
+1. **Purchase normally** using any payment method on your site
+2. **Complete a health survey** via a Truemed qualification link (shown post-purchase)
+3. **Receive an LMN:** If eligible, a licensed provider issues a Letter of Medical Necessity within 24-48 hours.
+4. **Submit for reimbursement:** The customer submits the LMN and receipt to their HSA/FSA administrator for reimbursement.
+
+Each LMN covers the customer's eligible purchases for a **full year**, so they only need to qualify once annually.
+
+<Tip>
+Watch the [reimbursement flow walkthrough](https://app.trupeer.ai/view/cWXd99QzH) video for a step-by-step overview.
+</Tip>
+
+---
+
+## Prerequisites
+
+Before you begin setup:
+
+- ☐ You've created your Truemed account at [app.truemed.com](https://app.truemed.com)
+- ☐ You've uploaded your product catalog (CSV with Name, SKU, and Description columns)
+- ☐ Your products have been reviewed and categorized by Truemed's compliance team
+
+---
+
+## Step 1: Create Your Truemed Account
+
+If you haven't already, create your Truemed account using the link provided by your Truemed contact. This gives you access to the Truemed Dashboard, where you can:
+
+- View **Qualifications** to see customer qualification activity and LMN status
+- Manage **Settings** to add team members and update your payment method
+- Upload **Products** to submit new products for eligibility review
+
+---
+
+## Step 2: Provide Payment for LMN Fees
+
+Truemed charges a flat fee for each LMN issued through your qualification link. Fees are collected in batches every Thursday.
+
+1. Go to [app.truemed.com/merchants/qualifications](https://app.truemed.com/merchants/qualifications)
+2. Add a payment method (credit card)
+3. Once saved, your **Qualification Link** will appear on this page
+
+<Warning>
+You are charged each time an LMN is issued. Do not place the qualification link on pre-purchase pages (landing pages, marketing emails, etc.). It should only appear **after** a customer has completed a purchase.
+</Warning>
+
+---
+
+## Step 3: Add the Qualification Link to Your Thank You Page
+
+This is the most important touchpoint. Showing the qualification link immediately after purchase gives customers the smoothest path to reimbursement.
+
+### Shopify Stores: Checkout Extensibility (Recommended)
+
+If your Shopify store uses Checkout Extensibility:
+
+1. Visit [apps.shopify.com/truemed-extensions](https://apps.shopify.com/truemed-extensions) and click **Install**
+2. Follow the configuration prompts
+3. Enter your **Truemed Public ID** (the last segment of your Qualification Link)
+4. Save your changes
+
+<Tip>
+To show the qualification link only for subscription orders, toggle this setting within the checkout extension editor.
+</Tip>
+
+### Shopify Stores: Additional Scripts (Legacy)
+
+If you haven't migrated to Checkout Extensibility:
+
+1. Find your Qualification Link at [app.truemed.com](https://app.truemed.com)
+2. In Shopify, go to **Settings > Checkout > Additional Scripts**
+3. Paste in the "Order status page" section:
+
+```html
+<div id="truemed-reimburse" data-url="YOUR_QUALIFICATION_LINK"></div>
+<script src="https://truemed-public.s3.us-west-1.amazonaws.com/truemed-ads/confirmation-widget-v1.1.min.js"></script>
+```
+
+### Non-Shopify Stores
+
+Add a CTA on your post-purchase/order confirmation page:
+
+```html
+<p>This order might be eligible for HSA/FSA reimbursement. <a href="YOUR_QUALIFICATION_LINK?source=post_purchase">Get Reimbursed</a>.</p>
+```
+
+---
+
+## Step 4: Add the Qualification Link to Your Order Confirmation Email
+
+This acts as a backup in case a customer misses the Thank You page. Add the link to your transactional order confirmation email template.
+
+**Example snippet:**
+
+```html
+<p>This order might be eligible for HSA/FSA reimbursement. <a href="YOUR_QUALIFICATION_LINK?source=email_receipt">Get Reimbursed</a>.</p>
+```
+
+---
+
+## Step 5: Install the Product Page Widget
+
+The PDP widget informs customers about HSA/FSA eligibility directly on the product page. This is the highest-impact promotion you can implement.
+
+1. Get your **Public Qualification ID** from [app.truemed.com/merchants/qualifications](https://app.truemed.com/merchants/qualifications)
+2. Add this code near the "Add to Cart" or "Buy" button on your product pages:
+
+```html
+<div id="truemed-instructions" style="font-size: 14px;" icon-height="12" data-public-id="YOUR_PUBLIC_QUALIFICATION_ID"></div>
+<script src="https://static.truemed.com/widgets/product-page-widget.min.js" defer></script>
+```
+
+The widget auto-detects your merchant profile and displays the appropriate messaging for the reimbursement flow.
+
+---
+
+## Step 6: Add Checkout Messaging for Subscriptions (Shopify, Optional)
+
+If you sell subscriptions through Shopify, add a checkout banner so customers know about the reimbursement opportunity before completing their order.
+
+1. Install [Checkout Blocks](https://apps.shopify.com/checkout-blocks)
+2. Create a Dynamic Content Block with a Banner template
+3. Set display rule: show when any line item has a selling plan
+4. Use this approved copy:
+
+> **Title:** Save an average of 30% when you use your HSA/FSA funds through Truemed.
+>
+> **Content:** Once you've purchased, fill out the Truemed health intake form on your order confirmation page to check if you qualify for HSA/FSA reimbursement. HSA/FSA tax savings vary. Learn more at [truemed.com/disclosures](https://www.truemed.com/disclosures).
+
+5. Limit publishing region to **United States**
+6. Save and add the block to your checkout
+
+---
+
+## Reimbursement Attribution (Optional but Recommended)
+
+Track which customers are getting reimbursed and how they discover Truemed by adding query parameters to your qualification links.
+
+### Source Parameter
+
+Indicates where the customer clicked the link. Use a different value for each placement:
+
+```
+https://app.truemed.com/qualify/[QUALIFICATION_ID]?source=order_confirm
+```
+
+Common values: `email_receipt`, `order_confirm`, `email_payment_reminder`, `reactivate_campaign`
+
+### User ID Parameter
+
+For more granular user-level attribution:
+
+```
+https://app.truemed.com/qualify/[QUALIFICATION_ID]?source=order_confirm&user_id=customer@email.com
+```
+
+### SKU Parameter
+
+To tailor the health survey to specific purchased items (contact [merchants@truemed.com](mailto:merchants@truemed.com) to enable):
+
+```
+https://app.truemed.com/qualify/[QUALIFICATION_ID]?skus=product123,product456
+```
+
+<Note>
+All parameter values should be URL-encoded. Source and user_id values are reflected in the Truemed Dashboard and CSV reports.
+</Note>
+
+---
+
+## Verify Your Setup
+
+- ☐ Visit a product page and confirm the HSA/FSA widget appears
+- ☐ Complete a test purchase and verify the qualification link appears on the Thank You page
+- ☐ Check your order confirmation email for the qualification link
+- ☐ Log in to [app.truemed.com](https://app.truemed.com) and confirm your Qualifications tab shows activity
+
+---
+
+## Need Help?
+
+- **Account & setup support:** [merchants@truemed.com](mailto:merchants@truemed.com)
+- **Customer support (for your customers):** [support@truemed.com](mailto:support@truemed.com)
+- **Truemed Dashboard:** [app.truemed.com](https://app.truemed.com)

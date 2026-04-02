@@ -1,6 +1,43 @@
 ---
 title: Compliance
-description: Compliance requirements and guidelines for Truemed merchant partners.
+description: Fraud protection, compliant HSA/FSA messaging guidelines, and chargeback handling for Truemed merchants.
 ---
 
-This article is coming soon.
+Truemed takes compliance seriously, both in how transactions are processed and in how HSA/FSA eligibility is communicated to customers. This page covers fraud protection, compliant messaging basics, and chargeback handling.
+
+## Fraud protection
+
+Truemed uses Stripe's fraud prevention tools to protect your store from fraudulent transactions. These protections are active by default and require no configuration on your end.
+
+**Stripe Radar.** All transactions run through Stripe Radar, which uses machine learning to detect and flag high-risk activity based on transaction patterns, card behavior, and device fingerprinting.
+
+**Truemed checkout controls.** The clinical intake survey and checkout flow include additional verification steps that reduce the likelihood of HSA/FSA card misuse. The health survey must be completed before any payment is captured.
+
+If a fraudulent transaction does get through, it follows the same dispute resolution process described in the chargeback section below. Truemed manages the dispute on your behalf, but if the dispute is lost, the amount is deducted from your Stripe payout.
+
+## Compliant messaging overview
+
+When you market HSA/FSA eligibility to your customers, your messaging must follow Truemed's compliance guidelines. Non-compliant messaging can lead to misleading customer expectations, ad takedowns, or disputes.
+
+The key rules:
+
+- **Eligibility is conditional.** Use "may be eligible," "if you qualify," or "qualified customers." Never imply guaranteed approval.
+- **Scope eligibility to specific products.** Don't make blanket brand claims unless nearly all of your products are eligible.
+- **Qualify savings claims.** Use "save an average of 30%\*" with the required disclaimer: *Truemed is for qualified customers. HSA/FSA tax savings vary. Learn more at [truemed.com/disclosures](https://www.truemed.com/disclosures).*
+- **Use mandated terminology.** Say "practitioner" or "clinician," not "doctor." Say "Letter of Medical Necessity," not "doctor's note." Say "clinical intake form" or "health survey," not "quick survey."
+- **Don't say Truemed is free.** The cost of Truemed's services is included in the purchase price.
+- **Don't speak for third parties.** Never predict practitioner decisions or HSA/FSA administrator reimbursement outcomes.
+
+If you'd like Truemed's team to review marketing assets before they go live, email [merchants@truemed.com](mailto:merchants@truemed.com).
+
+## Chargeback protection
+
+If a customer files a dispute or chargeback on a Truemed order, Truemed manages the resolution process on your behalf:
+
+1. Truemed is notified by Stripe when a dispute is filed.
+2. The Truemed team contacts your support representative to gather relevant order details.
+3. Truemed works with the customer to resolve the issue, or submits evidence to Stripe to contest the dispute.
+
+If a dispute is lost, the amount is deducted from your next Stripe payout. There is no separate invoice or manual repayment. Everything is handled through Stripe's standard dispute flow.
+
+Compliant messaging is one of the most effective ways to prevent chargebacks. When customers have accurate expectations about eligibility and savings, they are far less likely to dispute charges.

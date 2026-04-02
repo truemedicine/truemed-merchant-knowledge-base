@@ -1,6 +1,178 @@
 ---
 title: SKU Upload
-description: How to upload and manage your SKUs in the Truemed portal, and troubleshooting common issues.
+description: How to upload, manage, and troubleshoot product SKUs across all platforms using Truemed.
 ---
 
-This article is coming soon.
+This guide covers how to upload, manage, and troubleshoot product SKUs across all platforms using Truemed. Keeping your product catalog current ensures customers see accurate HSA/FSA eligibility at checkout or during the reimbursement flow.
+
+---
+
+## Why SKU Upload Matters
+
+Every product you sell must be reviewed and categorized by Truemed's compliance team before it can be marked as eligible for HSA/FSA. Products that haven't been reviewed **default to ineligible**. This is the most common reason customers encounter eligibility issues.
+
+---
+
+## When to Upload SKUs
+
+Upload your full product list:
+
+- **Once per quarter** as a routine update
+- **Any time you launch new products** or change your catalog
+- **If a customer reports** a product showing as ineligible when it should qualify
+
+---
+
+## Preparing Your Product List
+
+### Shopify Merchants
+
+Export your products directly from Shopify:
+
+1. Go to **Shopify Admin > Products**
+2. Click **Export** in the upper right
+3. Select **"All Products"** and **"Plain CSV File"**
+4. Click **Export Products**
+
+<Warning>
+Make sure every product variant has a **variant SKU** assigned before exporting.
+</Warning>
+
+#### How to Check for Missing SKUs (Shopify)
+
+1. Go to **Products** in your Shopify Admin
+2. Open any product and scroll to the **Variants** section
+3. Confirm each variant has a value in the **SKU** field
+4. If any are blank, add a SKU and save before exporting
+
+<Note>
+**Pre-approved merchants:** Ensure all variants have GTINs (barcodes) assigned. Items without GTINs cannot be ingested by our system and will take 1–2 extra days.
+</Note>
+
+### WooCommerce Merchants
+
+Export your products from WooCommerce:
+
+1. Go to **WooCommerce > Products**
+2. Use the built-in export tool or a plugin like WP All Export
+3. Export as CSV with columns: **Name**, **SKU**, **Description**
+
+### API / Other Platforms
+
+Prepare a CSV with the following columns:
+
+| Column | Required | Description |
+|--------|----------|-------------|
+| **Name** | Yes | Product name |
+| **SKU** | Yes | Unique product identifier |
+| **Description** | Yes | Brief product description |
+
+<Note>
+If your platform uses a different export format, contact [merchants@truemed.com](mailto:merchants@truemed.com) and we'll work with you on a solution.
+</Note>
+
+---
+
+## How to Upload to Truemed
+
+1. Log in to [app.truemed.com](https://app.truemed.com)
+2. Click the **Products** tab in the navigation menu
+3. Upload your CSV file, or add SKUs individually
+4. Each product appears in your SKU table with a status label
+
+<Note>
+Both account **Owners** and **Staff** can upload, view, and download SKU data.
+</Note>
+
+---
+
+## Understanding SKU Eligibility Status
+
+After upload, each product receives one of the following statuses:
+
+| Status | Meaning | Customer Impact |
+|--------|---------|-----------------|
+| **Awaiting Review** | Submitted, pending review by Truemed's compliance team | Product appears as ineligible until reviewed |
+| **Approved (requires LMN)** | Fully eligible for HSA/FSA with a Letter of Medical Necessity | Customer can pay with HSA/FSA or get reimbursed |
+| **Pre-approved** | Eligible and does not require an LMN | Automatic eligibility, no health survey needed |
+| **Partial Eligibility** | Only part of the item qualifies | Details included in the LMN |
+| **Ineligible** | Not approved for HSA/FSA spending | Customer cannot use HSA/FSA for this item |
+
+---
+
+## Common Issues & Solutions
+
+### Product Showing as Ineligible at Checkout
+
+**Cause:** The product hasn't been reviewed yet, or your latest catalog hasn't been uploaded.
+
+**Fix:**
+1. Upload your full product list to the Truemed Dashboard
+2. Wait 1–2 business days for review
+3. Check the Products tab for updated status
+
+### CSV Upload Failing
+
+**Cause:** Format mismatch or missing required fields.
+
+**Fix:**
+- Shopify merchants: Use the standard Shopify CSV export, not a custom format
+- Other platforms: Ensure your CSV includes Name, SKU, and Description columns
+- Verify no SKU fields are blank
+- If issues persist, email the CSV + your business name to [merchants@truemed.com](mailto:merchants@truemed.com)
+
+### Products Stuck in "Awaiting Review"
+
+**Cause:** High volume of submissions or missing product details.
+
+**Fix:**
+- Allow 1–2 business days for standard processing
+- If it's been longer, contact [merchants@truemed.com](mailto:merchants@truemed.com) with your business name
+
+### Pre-Approved Products Not Being Ingested (Shopify)
+
+**Cause:** Pre-approved merchants must have GTINs (barcodes) on all product variants.
+
+**Fix:** Add GTINs to all variants in Shopify before exporting. Allow an additional 1–2 days for processing.
+
+---
+
+## Best Practices
+
+- **Set a quarterly reminder** to upload your full product catalog
+- **Upload before launching new products** so they're categorized by the time customers see them
+- **Include everything** in your export: samples, gift cards, bundles, branded merch. Our team needs the full picture to categorize accurately.
+- **Don't manually tag** products as HSA/FSA eligible on your platform. Eligibility is determined by Truemed's compliance team.
+
+---
+
+## FAQs
+
+**Can I upload in a format other than CSV?**
+CSV is the standard format. If you can't produce a CSV, contact [merchants@truemed.com](mailto:merchants@truemed.com) with details about your platform and we'll work with you.
+
+**Do I need to filter my product list before uploading?**
+No. Upload your complete catalog. Truemed categorizes both eligible and ineligible items. We need to know about everything that could appear on a customer receipt.
+
+**How often should I re-upload?**
+At minimum, once per quarter. Also re-upload whenever you add new products to your store.
+
+**Can staff members upload SKUs, or only the account owner?**
+Both Owners and Staff roles in the Truemed Dashboard can upload, view, and download SKU data.
+
+**Can I manually tag products as HSA/FSA eligible in Shopify?**
+No. Product eligibility must be verified and assigned by Truemed's compliance team. Shopify tagging alone does not enable HSA/FSA checkout.
+
+**How long does review take?**
+Typically 1–2 business days for standard reviews. Pre-approved products with missing GTINs may take an additional 1–2 days.
+
+**What if I have thousands of products?**
+The upload system handles large catalogs. If you run into issues with very large files, contact [merchants@truemed.com](mailto:merchants@truemed.com).
+
+---
+
+## Need Help?
+
+- **Upload issues:** Email your CSV and business name to [merchants@truemed.com](mailto:merchants@truemed.com)
+- **Eligibility questions:** [merchants@truemed.com](mailto:merchants@truemed.com)
+- **Truemed Dashboard:** [app.truemed.com](https://app.truemed.com)

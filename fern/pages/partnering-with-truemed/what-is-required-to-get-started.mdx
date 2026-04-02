@@ -1,6 +1,62 @@
 ---
 title: What Is Required to Get Started
-description: Requirements and prerequisites for onboarding with Truemed as a merchant.
+description: Onboarding requirements, Stripe setup, and technical prerequisites for each supported platform.
 ---
 
-This article is coming soon.
+Before you can start accepting HSA/FSA payments through Truemed, you'll need a few things in place. This page covers onboarding requirements, Stripe setup, and the technical prerequisites for each supported platform.
+
+## Onboarding requirements
+
+To partner with Truemed, your business must:
+
+- **Sell to U.S. customers.** Truemed is currently available in the United States only. Your business does not need to be U.S.-headquartered (see international merchant notes below).
+- **Offer products that can be medically substantiated.** Truemed works with products and services that treat, mitigate, or prevent a diagnosed medical condition under IRS guidelines. Truemed evaluates product eligibility during the partnership process.
+- **Complete Stripe onboarding.** Truemed uses Stripe to process payments and issue payouts. You'll set up a Stripe account on the Truemed platform during onboarding.
+- **Have a team member with admin access available for setup.** Depending on your platform, you'll need someone who can install apps or adjust payment settings during a live onboarding call.
+
+Most implementations take 30 minutes or less.
+
+## Stripe account
+
+Truemed uses Stripe to collect funds from your customers' HSA/FSA cards and transfer them to your linked bank account.
+
+**What to know:**
+
+- You'll create a new Stripe account under the Truemed platform, even if you already have an existing Stripe account. You can use your existing credentials to log in.
+- You must connect a valid bank account so Truemed can remit payouts. This connection is encrypted and managed through Stripe. Truemed does not store your banking credentials.
+- Payouts typically settle within 48 hours on a rolling basis.
+- After onboarding, your Stripe account will show as either "Enabled" or "Complete." Both statuses can receive payouts. Stripe may request additional information over time based on account volume and age.
+
+**International merchants:** You'll need an EIN, a U.S. phone number, and a U.S. business address to complete Stripe onboarding. You can [apply for an EIN as a foreign entity](https://www.irs.gov/businesses/small-businesses-self-employed/how-to-apply-for-an-ein) through the IRS.
+
+## Technical requirements by platform
+
+### Shopify
+
+- At least one team member with account-level permissions to install and manage third-party payment apps.
+- The Truemed app is installed via a direct link during your onboarding call (it is not listed on the Shopify App Store).
+
+### WooCommerce
+
+- Admin access to install and configure the Truemed plugin.
+- Setup details are provided during your onboarding call.
+
+### BigCommerce
+
+- Admin access to your BigCommerce storefront.
+- Integration steps are provided during your onboarding call.
+
+### Custom API
+
+- Your development team integrates with Truemed's API endpoints for checkout, authorization, and capture.
+- Full developer documentation is available at [developers.truemed.com](https://developers.truemed.com).
+
+### Reimbursements (post-purchase)
+
+- No app installation required. Works with any e-commerce platform or in-store environment.
+- You'll embed a widget or link on your order confirmation page, or include a link in your post-purchase email flow.
+- Your unique qualification survey link is available in the [Truemed dashboard](https://app.truemed.com).
+
+## Need help?
+
+Reach out to [merchants@truemed.com](mailto:merchants@truemed.com) with any onboarding questions.

@@ -1,6 +1,162 @@
 ---
 title: Shopify Issues
-description: Troubleshooting common Shopify integration issues, including manual capture and order management.
+description: Troubleshooting common Shopify-specific issues with Truemed, including payment visibility, order management, manual capture, and theme changes.
 ---
 
-This article is coming soon.
+This guide covers the most common Shopify-specific issues merchants encounter with Truemed, including payment visibility, order management, manual capture, and theme changes.
+
+---
+
+## Payment Option Not Showing at Checkout
+
+If your customers can't see the Truemed payment option at checkout, check the following:
+
+### 1. Confirm the App Is Activated
+
+1. Go to **Shopify Admin > Settings > Payments**
+2. Look for "Truemed" under **Additional payment methods**
+3. If it's not listed, you may need to reinstall or activate it. See the [Shopify Setup Guide](/implementation/shopify/setup-guide) article.
+
+### 2. Check That Products Have Approved SKUs
+
+If a product hasn't been reviewed by Truemed's compliance team, it will default to **ineligible** at checkout. Upload your latest product catalog through the Truemed Dashboard.
+
+See the [SKU Upload](/troubleshooting/sku-upload) troubleshooting article for details.
+
+### 3. Ensure the Customer Is Checking Out as Guest
+
+Truemed's payment option does not appear when customers use **Shop Pay** or accelerated checkout. Customers must select **"Guest checkout"** to see Truemed as a payment method.
+
+### 4. Verify Stripe Account Status
+
+Your Stripe account must be at least **Enabled** for the payment app to work. Check your Stripe connection status in your onboarding plan or contact [merchants@truemed.com](mailto:merchants@truemed.com).
+
+### 5. Check Geographic Restrictions
+
+Truemed is currently available to US customers only. If a customer's billing or shipping address is outside the US, the Truemed option may not appear.
+
+---
+
+## Missing Orders in Shopify
+
+Truemed orders are processed through our payment system, not through Shopify's standard payment flow. Here's what to know:
+
+- Truemed orders **do appear in Shopify** but may behave differently from standard orders
+- Orders start in a **"Pending" state** until a Letter of Medical Necessity (LMN) is issued
+- Status transitions can take a **few hours**, and this is normal
+- Check the [Truemed Dashboard](https://app.truemed.com) for the most up-to-date order status
+
+### Order Status Reference
+
+**Shopify Statuses:**
+
+| Shopify Status | Meaning | Action Required |
+|----------------|---------|-----------------|
+| **Payment Pending** | Health survey is under review. No LMN issued yet. | Wait. Do not fulfill. |
+| **Authorized** | LMN has been issued. Payment can be captured. | Capture payment within 5 days. |
+| **Paid** | Payment has been captured. | Fulfill the order. |
+| **Expired** | LMN was rejected or authorization expired. | Do not fulfill. |
+
+**Truemed Dashboard Statuses:**
+
+| Truemed Dashboard Status | Meaning |
+|--------------------------|---------|
+| **Processing** | Health survey under review |
+| **Authorized** | LMN issued. Eligible for capture and fulfillment |
+| **Rejected** | LMN rejected. Order cancelled |
+| **Captured** | Payment successfully captured |
+
+---
+
+## Manual Capture
+
+### What Is Manual Capture?
+
+Manual capture is a Shopify setting that allows you to **authorize** a charge but delay the **capture** (collection) of funds until later. Some merchants use this for preorders or custom fulfillment workflows.
+
+Truemed is optimized for **automatic capture**, which is Shopify's default.
+
+### How to Check Your Capture Setting
+
+1. Go to **Shopify Admin > Settings > Payments**
+2. Look for **Payment capture method**
+3. If set to **"Automatically capture payment for orders"**, you're all set. No action needed.
+
+### If You Use Manual Capture
+
+Manual capture works with Truemed, but requires special attention because Truemed orders have unique status transitions:
+
+#### The Manual Capture Flow
+
+1. **Order created:** Customer places order through Truemed. Payment is authorized but not captured.
+2. **LMN review:** The order remains in "Pending" state while the health survey is reviewed.
+3. **LMN issued:** Order transitions to "Authorized" status (this can take several hours).
+4. **Capture window:** You must capture payment **within 5 days** of authorization, or it expires.
+5. **Payment captured:** Order moves to "Paid" and is ready to fulfill.
+
+#### How to Capture Payment
+
+- **Bulk capture:** From the Shopify Orders list, select eligible orders and use bulk actions
+- **Individual capture:** Open the order and click **"Capture payment"**
+
+<Note>
+You can only capture payment **once per order**. Partial captures are not supported.
+</Note>
+
+#### Common Manual Capture Issues
+
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| **Missed captures** | Automation ran before the order transitioned to "Authorized" | Add retry logic to check for delayed status changes |
+| **Expired authorization** | Payment not captured within 5 days | Customer must re-place the order. Expired authorizations cannot be recovered. |
+| **False fraud flags** | Fraud detection ran before order reached "Paid" status | Wait for correct status before fraud evaluation |
+
+#### Recommended: Shopify Flow for Auto-Capture
+
+If you want to use manual capture but still auto-capture Truemed orders, create a dedicated Shopify Flow:
+
+1. **Trigger:** Order payment status changes
+2. **Condition:** Payment gateway contains "Truemed" AND order is "Authorized"
+3. **Action:** Capture payment
+
+<Tip>
+A downloadable example Shopify Flow template is available. Reach out to [merchants@truemed.com](mailto:merchants@truemed.com) to request it. Test thoroughly in your specific environment before going live.
+</Tip>
+
+---
+
+## Theme Changes
+
+**Will changing my Shopify theme affect Truemed?**
+
+- **Payment app:** No. The Truemed payment integration is independent of your theme.
+- **Product page widget:** Yes. If you switch themes, you'll need to re-add the PDP widget to your new theme template. See the [Shopify Setup Guide](/implementation/shopify/setup-guide) article for installation instructions.
+- **Thank You page widget:** If using the Truemed Extensions app (Checkout Extensibility), no action is needed. If using Additional Scripts, verify your scripts are still in place after the theme change.
+
+---
+
+## Refunds for Truemed Orders
+
+Refunds for Truemed orders are processed through the Truemed Dashboard, not through Shopify's standard refund flow:
+
+- Refund amounts are deducted from your Stripe payout balance
+- Refunds are initiated from the Truemed Dashboard or by contacting [merchants@truemed.com](mailto:merchants@truemed.com)
+- Processing time follows standard Stripe timelines
+
+---
+
+## Quick Troubleshooting Checklist
+
+| Symptom | First Thing to Check |
+|---------|---------------------|
+| Truemed not showing at checkout | App activated? Stripe enabled? Customer using Guest checkout? |
+| Order stuck in "Pending" | LMN review in progress. Check Truemed Dashboard for status |
+| Can't capture payment | Is the order "Authorized"? Has the 5-day window expired? |
+| Product showing as ineligible | Upload latest SKU list via Truemed Dashboard |
+| Widget not appearing on product page | Check theme template. Widget may need to be re-added after a theme change |
+
+---
+
+## Need Help?
+
+Contact [merchants@truemed.com](mailto:merchants@truemed.com) for any Shopify-related issues.
