@@ -1,0 +1,232 @@
+---
+title: Shopify Setup Guide
+description: Install, activate, and configure Truemed on your Shopify store so customers can pay with HSA/FSA funds at checkout.
+slug: merchant-account-management/shopify-management/shopify-setup-guide
+---
+
+Everything you need to get Truemed running on your Shopify store. Most merchants complete setup in a single onboarding session, but you can also follow these steps on your own.
+
+<Callout type="info">
+  Before you begin, make sure you've completed [Stripe Onboarding](/getting-started/stripe-setup/stripe-onboarding) and your Truemed account has been configured by our team. If you haven't done these steps yet, reach out to [merchants@truemed.com](mailto:merchants@truemed.com).
+</Callout>
+
+## Install
+
+Installing the Truemed payment app adds HSA/FSA as a payment option in your Shopify checkout. The app is not listed in the public Shopify App Store — you'll receive a direct install link from your Truemed onboarding contact.
+
+<Steps>
+  <Step title="Confirm account permissions">
+    You need **account owner** or **admin-level permissions** on your Shopify store to install a third-party payment app. If you're not the store owner, ask them to either grant you access or join your onboarding session.
+
+    <Callout type="warning">
+      Staff accounts with limited permissions cannot install payment apps. At least one person with full admin access must be available during setup.
+    </Callout>
+  </Step>
+
+  <Step title="Open the install link">
+    Click the Truemed app install link provided by your onboarding contact. This will take you to a Shopify authorization screen.
+
+    If you're completing setup on your own, you can find the link in your onboarding plan (Arrows) or by visiting [apps.shopify.com/truemed](https://apps.shopify.com/truemed).
+
+    <Frame caption="Shopify will ask you to authorize the Truemed payment app.">
+</Frame>
+  </Step>
+
+  <Step title="Authorize and install">
+    Review the permissions Truemed is requesting, then click **Install app**. Shopify will add Truemed to your store's payment methods.
+
+    Once installed, you'll see Truemed listed under **Settings > Payments > Additional payment methods** in your Shopify admin.
+
+    <Frame caption="Truemed appears under Additional payment methods after installation.">
+</Frame>
+  </Step>
+</Steps>
+
+---
+
+## Activate
+
+After installing, you need to activate the app so it appears as a payment option at checkout.
+
+<Steps>
+  <Step title="Navigate to payment settings">
+    In your Shopify admin, go to **Settings > Payments**. Scroll down to the **Additional payment methods** section. You should see Truemed listed.
+
+    If you don't see it listed, click **Add payment method**, toggle to **Search by provider**, and search for "TrueMed."
+
+    <Frame caption="Finding Truemed in your Shopify payment settings.">
+</Frame>
+  </Step>
+
+  <Step title="Click Activate">
+    Click into the Truemed payment method and click the **Activate** button. Once activated, HSA/FSA payment will appear as an option for customers at checkout immediately.
+
+    <Frame caption="Click Activate to make Truemed live on your store.">
+</Frame>
+  </Step>
+
+  <Step title="Leave card network toggles enabled">
+    You'll see toggles for **Visa**, **Mastercard**, and **American Express**. Leave all three turned on.
+
+    These toggles allow Truemed to also process standard credit and debit cards when a customer's HSA/FSA card is declined or has insufficient funds. In this case, the customer pays with their personal card and receives a Letter of Medical Necessity (LMN) to submit for reimbursement from their HSA/FSA provider.
+
+    <Callout type="tip">
+      Truemed covers the credit card processing fees for these fallback transactions — there's no extra cost to you.
+    </Callout>
+  </Step>
+</Steps>
+
+---
+
+## Configure
+
+With the app activated, there are a few configuration decisions to be aware of.
+
+### Payment capture method
+
+Truemed is optimized for Shopify's default setting: **Automatically capture payment for orders**. If you're using this default, no action is needed.
+
+To confirm your setting, go to **Settings > Payments > Payment capture method** in your Shopify admin.
+
+<Accordion id="manual-capture" defaultOpen={false}>
+  <summary>Using manual capture? Read this.</summary>
+
+  If you use **manual capture** (or "Automatically when the entire order is fulfilled"), Truemed orders follow a unique flow:
+
+  **How it works:**
+
+  1. **Payment Pending** — The customer placed their order but the health survey is still under review. You cannot capture payment yet.
+  2. **Authorized** — The LMN has been issued. You can now capture payment. You must capture within **5 days** or the authorization expires.
+  3. **Paid** — Payment successfully captured. The order is ready to fulfill.
+  4. **Expired** — The LMN was rejected or the authorization window passed. Do not fulfill these orders.
+
+  <Callout type="warning">
+    You can only capture payment **once per order** — partial captures are not supported. Expired orders cannot be recovered; the customer would need to place a new order.
+  </Callout>
+
+  **Capturing payment:**
+
+  You can capture from the **Orders** list using bulk capture, or click **Capture payment** inside an individual order.
+
+  <Frame caption="Capturing payment on an authorized Truemed order in Shopify.">
+</Frame>
+
+  **Recommended: Create a Shopify Flow**
+
+  If you want orders to be captured automatically even with manual capture enabled, we recommend creating a dedicated Shopify Flow for Truemed orders. Contact [merchants@truemed.com](mailto:merchants@truemed.com) for a pre-built flow template you can import.
+</Accordion>
+
+### How payouts work
+
+Payouts for Truemed orders are processed through **Stripe** and deposited directly into the bank account you connected during onboarding. Truemed handles the transaction on your behalf — the order does not process through Shopify Payments, but you still receive the payout seamlessly.
+
+<Callout type="info">
+  For more on payout timing and reconciliation, see the [Payouts](/truemed-dashboard/payouts) guide.
+</Callout>
+
+---
+
+## Permissions
+
+Here's a quick reference for who needs access to what during and after setup.
+
+| Action | Required permission level |
+|---|---|
+| Install the Truemed payment app | **Account owner** or admin with payment management rights |
+| Activate / deactivate the app | **Account owner** or admin with payment management rights |
+| Edit theme code (for widgets) | **Edit theme code** permission (can be granted via Shopify Partners) |
+| View and manage orders | Staff account with **Orders** permission |
+| Access Shopify Payments settings | **Account owner** or admin |
+
+<Callout type="tip">
+  If your development team manages theme changes, you can grant them access through the [Shopify Partner Dashboard](https://partners.shopify.com) without giving them full admin rights. During onboarding, the Truemed team may request theme editing access to help install the product page widget — this is normal and can be revoked after setup.
+</Callout>
+
+---
+
+## Settings
+
+All Truemed-specific settings live in one place within Shopify.
+
+**To find your Truemed settings:**
+
+1. Open your **Shopify admin**
+2. Click **Settings** (bottom-left corner)
+3. Click **Payments** in the left sidebar
+4. Scroll to **Additional payment methods**
+5. Click on **Truemed**
+
+<Frame caption="Your Truemed settings live under Additional payment methods in Shopify.">
+</Frame>
+
+From this page you can:
+
+- View the current activation status
+- Toggle card networks (Visa, Mastercard, Amex) on or off
+- Deactivate or uninstall the app
+
+<Accordion id="disable-uninstall" defaultOpen={false}>
+  <summary>Need to deactivate or uninstall?</summary>
+
+  **Deactivating** the app removes Truemed from checkout but keeps it installed on your store. You can reactivate at any time.
+
+  **Uninstalling** fully removes the app from your store. Before you uninstall, be aware:
+
+  <Callout type="warning">
+    Uninstalling the Truemed payment app may prevent your store from processing refunds for orders that were originally placed through Truemed. We strongly recommend **deactivating** instead of uninstalling if you're pausing your integration.
+  </Callout>
+
+  To deactivate: Navigate to your Truemed payment settings (steps above) and click **Deactivate**.
+
+  To uninstall: First deactivate, then click **Uninstall** from the same settings page.
+</Accordion>
+
+---
+
+## Theme compatibility
+
+Truemed's payment integration is tied to your Shopify **account**, not your theme. Changing or updating your Shopify theme will **not** affect:
+
+- The Truemed payment option at checkout
+- Health surveys and LMN processing
+- Order tracking and payouts
+
+### What might be affected
+
+The **product page widget** (the HSA/FSA eligibility callout on your product pages) is embedded in your theme's code. If you switch themes, the widget may disappear because the new theme doesn't include the custom code block.
+
+### What to do after a theme change
+
+<Steps>
+  <Step title="Check your product pages">
+    Visit a product page on your live store. If the HSA/FSA eligibility message is still showing below or near the price, you're all set.
+  </Step>
+
+  <Step title="Re-install the widget if missing">
+    If the widget is gone, follow the steps in the [Website Readiness](/merchant-account-management/shopify-management/shopify-website-readiness) guide to re-add it to your new theme. Or, reach out to [merchants@truemed.com](mailto:merchants@truemed.com) and we'll help you re-embed it.
+  </Step>
+
+  <Step title="Test on mobile">
+    After any theme change, check that the widget displays correctly on mobile devices. Theme updates sometimes shift layout and spacing.
+  </Step>
+</Steps>
+
+<Callout type="info">
+  Payments, surveys, and order tracking will continue working normally regardless of your theme. The widget is the only component that lives inside your theme's code.
+</Callout>
+
+---
+
+## What's next?
+
+Now that your Shopify store is set up with Truemed, make sure your site is fully optimized to convert HSA/FSA shoppers:
+
+<CardGroup cols={2}>
+  <Card title="Website Readiness" icon="check-circle" href="/merchant-account-management/shopify-management/shopify-website-readiness">
+    Install the product page widget, configure checkout messaging, and verify everything is working.
+  </Card>
+
+  <Card title="Marketing Requirements" icon="bullhorn" href="/marketing/requirements/on-site-messaging">
+    Add HSA/FSA messaging to your header, footer, cart, and landing pages.
+  </Card>
+</CardGroup>
