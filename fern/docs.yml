@@ -63,3 +63,45 @@ navigation:
     contents:
       - page: Product Page Widget
         path: ./pages/hidden/product-page-widget.mdx
+      - page: Order Confirmation Widget
+        path: ./pages/hidden/order-confirmation-widget.mdx
+      - page: Post-Purchase Qualification Link App
+        path: ./pages/hidden/post-purchase-qualification-link-app.mdx
+      - page: Checkout Messaging for Subscription Products
+        path: ./pages/hidden/checkout-messaging-for-subscription-products.mdx
+      - page: HSA/FSA Landing Page
+        path: ./pages/hidden/hsa-fsa-landing-page.mdx
+      - page: Post-Purchase Email Snippet
+        path: ./pages/hidden/post-purchase-email-snippet.mdx
+      - page: Payment Integration Customer Journey
+        path: ./pages/hidden/payment-integration-customer-journey.mdx
+      - page: Reimbursements Customer Journey
+        path: ./pages/hidden/reimbursements-customer-journey.mdx
+      - page: Order Authorization and Medical Necessity Process
+        path: ./pages/hidden/order-authorization-and-medical-necessity-process.mdx
+      - page: Multicard Checkout
+        path: ./pages/hidden/multicard-checkout.mdx
+      - page: Capturing and Managing Truemed Orders in Shopify
+        path: ./pages/hidden/capturing-and-managing-truemed-orders-in-shopify.mdx
+      - page: Homepage Banner
+        path: ./pages/hidden/homepage-banner.mdx
+      - page: FAQ Page Updates
+        path: ./pages/hidden/faq-page-updates.mdx
+      - page: "Paid Ads: Unlocking Revenue Potential"
+        path: ./pages/hidden/paid-ads-unlocking-revenue-potential.mdx
+      - page: Social Channels
+        path: ./pages/hidden/social-channels.mdx
+      - page: HSA/FSA Eligible Product Collections
+        path: ./pages/hidden/hsa-fsa-eligible-product-collections.mdx
+      - page: Drive More HSA/FSA Sales with SMS
+        path: ./pages/hidden/drive-more-hsa-fsa-sales-with-sms.mdx
+      - page: HSA/FSA Ad Templates for BFCM and Year-End Promotions
+        path: ./pages/hidden/hsa-fsa-ad-templates-for-bfcm-and-year-end-promotions.mdx
+      - page: The Q4 Opportunity & Optimization Checklist
+        path: ./pages/hidden/the-q4-opportunity-and-optimization-checklist.mdx
+      - page: Truemed Launch Toolkit
+        path: ./pages/hidden/truemed-launch-toolkit.mdx
+      - page: Media Kit
+        path: ./pages/hidden/media-kit.mdx
+      - page: Reimbursement Attribution
+        path: ./pages/hidden/reimbursement-attribution.mdx
