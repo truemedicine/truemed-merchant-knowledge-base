@@ -59,7 +59,7 @@ navigation:
 
   - section: Resources
     hidden: true
+    slug: resources
     contents:
       - page: Product Page Widget
         path: ./pages/hidden/product-page-widget.mdx
-        slug: resources/product-page-widget
