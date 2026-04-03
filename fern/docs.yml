@@ -34,6 +34,9 @@ navigation:
         contents:
           - page: Setup Guide
             path: ./pages/implementation/shopify/setup-guide.mdx
+          - page: Product Page Widget
+            path: ./pages/implementation/shopify/product-page-widget.mdx
+            hidden: true
           - page: Website Readiness
             path: ./pages/implementation/shopify/website-readiness.mdx
       - section: Reimbursements
