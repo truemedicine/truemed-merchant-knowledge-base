@@ -14,6 +14,8 @@ navigation:
         path: ./pages/partnering-with-truemed/compliance.mdx
   - section: Getting Started
     contents:
+      - page: Welcome to Truemed
+        path: ./pages/getting-started/welcome-to-truemed.mdx
       - section: Payment Integration
         contents:
           - page: Intro to Truemed on Shopify
@@ -34,10 +36,6 @@ navigation:
         contents:
           - page: Setup Guide
             path: ./pages/implementation/reimbursements/setup-guide.mdx
-          - page: Website Readiness (In-Store)
-            path: ./pages/implementation/reimbursements/website-readiness-in-store.mdx
-          - page: Website Readiness (Online)
-            path: ./pages/implementation/reimbursements/website-readiness-online.mdx
       - section: Website Readiness
         contents:
           - page: Website Readiness
@@ -48,6 +46,8 @@ navigation:
             path: ./pages/implementation/website-readiness/consideration.mdx
           - page: Conversion
             path: ./pages/implementation/website-readiness/conversion.mdx
+          - page: Website Readiness (In-Store)
+            path: ./pages/implementation/website-readiness/website-readiness-in-store.mdx
   - section: Troubleshooting
     contents:
       - page: Shopify Issues
