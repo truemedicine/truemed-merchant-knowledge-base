@@ -34,8 +34,6 @@ navigation:
         contents:
           - page: Setup Guide
             path: ./pages/implementation/shopify/setup-guide.mdx
-          - page: Website Readiness
-            path: ./pages/implementation/shopify/website-readiness.mdx
       - section: Reimbursements
         contents:
           - page: Setup Guide
@@ -44,6 +42,16 @@ navigation:
             path: ./pages/implementation/reimbursements/website-readiness-in-store.mdx
           - page: Website Readiness (Online)
             path: ./pages/implementation/reimbursements/website-readiness-online.mdx
+      - section: Website Readiness
+        contents:
+          - page: Website Readiness
+            path: ./pages/implementation/website-readiness/website-readiness.mdx
+          - page: Discovery
+            path: ./pages/implementation/website-readiness/discovery.mdx
+          - page: Consideration
+            path: ./pages/implementation/website-readiness/consideration.mdx
+          - page: Conversion
+            path: ./pages/implementation/website-readiness/conversion.mdx
 
   - section: Troubleshooting
     contents:
