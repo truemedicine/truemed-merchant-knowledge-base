@@ -1,8 +1,6 @@
 instances:
   - url: truemed-merchants.docs.buildwithfern.com
-
 title: Truemed Merchant Help Center
-
 navigation:
   - section: Partnering with Truemed
     contents:
@@ -14,20 +12,18 @@ navigation:
         path: ./pages/partnering-with-truemed/eligibility-and-what-businesses-qualify.mdx
       - page: Compliance
         path: ./pages/partnering-with-truemed/compliance.mdx
-
   - section: Getting Started
     contents:
       - section: Payment Integration
         contents:
-          - page: Welcome & Intro (Shopify)
+          - page: Intro to Truemed on Shopify
             path: ./pages/getting-started/payment-integration/welcome-intro-shopify.mdx
-          - page: Welcome & Intro (WooCommerce)
+          - page: Intro to Truemed on WooCommerce
             path: ./pages/getting-started/payment-integration/welcome-intro-woocommerce.mdx
       - section: Stripe Setup
         contents:
           - page: Stripe Onboarding & Connection
             path: ./pages/getting-started/stripe-setup/stripe-onboarding-and-connection.mdx
-
   - section: Implementation
     contents:
       - section: Shopify
@@ -52,19 +48,16 @@ navigation:
             path: ./pages/implementation/website-readiness/consideration.mdx
           - page: Conversion
             path: ./pages/implementation/website-readiness/conversion.mdx
-
   - section: Troubleshooting
     contents:
       - page: Shopify Issues
         path: ./pages/troubleshooting/shopify-issues.mdx
       - page: SKU Upload
         path: ./pages/troubleshooting/sku-upload.mdx
-
   - section: Account Management
     contents:
       - page: Staff Resources & Training
         path: ./pages/account-management/staff-resources-and-training.mdx
-
   - section: Resources
     hidden: true
     slug: resources
@@ -95,7 +88,7 @@ navigation:
         path: ./pages/hidden/homepage-banner.mdx
       - page: FAQ Page Updates
         path: ./pages/hidden/faq-page-updates.mdx
-      - page: "Paid Ads: Unlocking Revenue Potential"
+      - page: 'Paid Ads: Unlocking Revenue Potential'
         path: ./pages/hidden/paid-ads-unlocking-revenue-potential.mdx
       - page: Social Channels
         path: ./pages/hidden/social-channels.mdx
