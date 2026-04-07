@@ -1,5 +1,6 @@
 instances:
   - url: truemed-merchants.docs.buildwithfern.com
+    custom-domain: support.truemed.com
 title: Truemed Merchant Help Center
 navigation:
   - section: Partnering with Truemed
