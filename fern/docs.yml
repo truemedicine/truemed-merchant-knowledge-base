@@ -120,32 +120,41 @@ navigation:
       - page: "Staff Resources: About Truemed"
         path: ./pages/hidden/service-business/staff-resources-about-truemed.mdx
       - page: FAQs - Questions Your Customers Might Ask
+        slug: faqs-questions-your-customers-might-ask
         path: ./pages/hidden/service-business/faqs-questions-your-customers-might-ask.mdx
       - page: HSA/FSA Landing Page
+        slug: sb-hsa-fsa-landing-page
         path: ./pages/hidden/service-business/sb-hsa-fsa-landing-page.mdx
       - page: Homepage Feature
         path: ./pages/hidden/service-business/homepage-feature.mdx
       - page: Homepage Banner
+        slug: sb-homepage-banner
         path: ./pages/hidden/service-business/sb-homepage-banner.mdx
       - page: Banner on Pricing Pages
         path: ./pages/hidden/service-business/banner-on-pricing-pages.mdx
       - page: FAQ Page Updates
+        slug: sb-faq-page-updates
         path: ./pages/hidden/service-business/sb-faq-page-updates.mdx
       - page: Highlight HSA/FSA Access in Your Site Navigation or Footer
+        slug: highlight-hsa-fsa-access-in-navigation-or-footer
         path: ./pages/hidden/service-business/highlight-hsa-fsa-access-in-navigation-or-footer.mdx
       - page: Purpose & Promotional Principles
+        slug: purpose-and-promotional-principles
         path: ./pages/hidden/service-business/purpose-and-promotional-principles.mdx
       - page: Email Templates
+        slug: sb-email-templates
         path: ./pages/hidden/service-business/sb-email-templates.mdx
       - page: "HSA/FSA Promotion: Seasonal Planning"
         path: ./pages/hidden/service-business/hsa-fsa-promotion-seasonal-planning.mdx
       - page: Using Truemed in Targeted Advertising
         path: ./pages/hidden/service-business/using-truemed-in-targeted-advertising.mdx
       - page: Q4 Promotion
+        slug: sb-q4-promotion
         path: ./pages/hidden/service-business/sb-q4-promotion.mdx
       - page: Inserting HSA/FSA Messaging into Existing Email Flows
         path: ./pages/hidden/service-business/inserting-hsa-fsa-messaging-into-existing-email-flows.mdx
       - page: HSA/FSA Headers & Footers
+        slug: hsa-fsa-headers-and-footers
         path: ./pages/hidden/service-business/hsa-fsa-headers-and-footers.mdx
       - page: In-App Push Notification
         path: ./pages/hidden/service-business/in-app-push-notification.mdx
@@ -154,12 +163,15 @@ navigation:
       - page: FSA Expiration Email Templates
         path: ./pages/hidden/service-business/fsa-expiration-email-templates.mdx
       - page: Watch Our Q4 Webinar
+        slug: watch-our-q4-webinar
         path: ./pages/hidden/service-business/watch-our-q4-webinar.mdx
       - page: HSA/FSA Ad Templates for Year-End Promotions
+        slug: sb-hsa-fsa-ad-templates-for-year-end-promotions
         path: ./pages/hidden/service-business/sb-hsa-fsa-ad-templates-for-year-end-promotions.mdx
       - page: New Year, New You Email Templates
         path: ./pages/hidden/service-business/new-year-new-you-email-templates.mdx
       - page: "Open Enrollment: Overview & Email Campaign Templates"
+        slug: open-enrollment-overview-and-email-campaign-templates
         path: ./pages/hidden/service-business/open-enrollment-overview-and-email-campaign-templates.mdx
       - page: Adding Your Business To The Truemed Marketplace
         path: ./pages/hidden/service-business/adding-your-business-to-the-truemed-marketplace.mdx
