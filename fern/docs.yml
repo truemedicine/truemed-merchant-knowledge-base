@@ -111,13 +111,13 @@ navigation:
     hidden: true
     slug: service-business
     contents:
-      - page: "Welcome to Truemed: How It Works"
+      - page: 'Welcome to Truemed: How It Works'
         path: ./pages/hidden/service-business/welcome-to-truemed-how-it-works.mdx
       - page: The Customer Journey
         path: ./pages/hidden/service-business/the-customer-journey.mdx
-      - page: "Marketing Playbook: A Successful Launch"
+      - page: 'Marketing Playbook: A Successful Launch'
         path: ./pages/hidden/service-business/marketing-playbook-a-successful-launch.mdx
-      - page: "Staff Resources: About Truemed"
+      - page: 'Staff Resources: About Truemed'
         path: ./pages/hidden/service-business/staff-resources-about-truemed.mdx
       - page: FAQs - Questions Your Customers Might Ask
         slug: faqs-questions-your-customers-might-ask
@@ -144,7 +144,7 @@ navigation:
       - page: Email Templates
         slug: sb-email-templates
         path: ./pages/hidden/service-business/sb-email-templates.mdx
-      - page: "HSA/FSA Promotion: Seasonal Planning"
+      - page: 'HSA/FSA Promotion: Seasonal Planning'
         path: ./pages/hidden/service-business/hsa-fsa-promotion-seasonal-planning.mdx
       - page: Using Truemed in Targeted Advertising
         path: ./pages/hidden/service-business/using-truemed-in-targeted-advertising.mdx
@@ -170,10 +170,18 @@ navigation:
         path: ./pages/hidden/service-business/sb-hsa-fsa-ad-templates-for-year-end-promotions.mdx
       - page: New Year, New You Email Templates
         path: ./pages/hidden/service-business/new-year-new-you-email-templates.mdx
-      - page: "Open Enrollment: Overview & Email Campaign Templates"
+      - page: 'Open Enrollment: Overview & Email Campaign Templates'
         slug: open-enrollment-overview-and-email-campaign-templates
         path: ./pages/hidden/service-business/open-enrollment-overview-and-email-campaign-templates.mdx
       - page: Adding Your Business To The Truemed Marketplace
         path: ./pages/hidden/service-business/adding-your-business-to-the-truemed-marketplace.mdx
       - page: Manage Your Membership
         path: ./pages/hidden/service-business/manage-your-membership.mdx
+  - page: Merchant Hub
+    path: ./docs/pages/merchant-hub.mdx
+colors:
+  accent-primary:
+    light: '#06576f'
+logo:
+  dark: truemed-logo-teal.svg
+  light: truemed-logo-teal.svg
