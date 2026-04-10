@@ -328,3 +328,9 @@ navigation:
       - page: Q4 Optimization Checklist
         slug: sb-q4-optimization-checklist
         path: ./pages/hidden/service-business/sb-q4-optimization-checklist.mdx
+logo:
+  dark: truemed-logo-teal.svg
+  light: truemed-logo-teal.svg
+colors:
+  accent-primary:
+    light: "#06576F"
