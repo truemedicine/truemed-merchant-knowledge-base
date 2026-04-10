@@ -121,17 +121,17 @@ navigation:
         path: ./pages/hidden/disabling-the-truemed-payment-app.mdx
       - page: Uninstalling the Truemed Payment App
         path: ./pages/hidden/uninstalling-the-truemed-payment-app.mdx
-      - page: What is Stripe used for?
+      - page: "What is Stripe used for?"
         path: ./pages/hidden/what-is-stripe-used-for.mdx
-      - page: We already have a Stripe account. Why do I need to onboard again?
+      - page: "We already have a Stripe account. Why do I need to onboard again?"
         path: ./pages/hidden/we-already-have-a-stripe-account-why-do-i-need-to-onboard-again.mdx
-      - page: What does it mean that my Stripe account is "Enabled" vs. "Complete"?
+      - page: 'What does it mean that my Stripe account is "Enabled" vs. "Complete"?'
         path: ./pages/hidden/what-does-it-mean-that-my-stripe-account-is-enabled-vs-complete.mdx
-      - page: I have linked our bank account but still need to complete some of the other steps. Is this enough to install the app?
+      - page: "I have linked our bank account but still need to complete some of the other steps. Is this enough to install the app?"
         path: ./pages/hidden/i-have-linked-our-bank-account-but-still-need-to-complete-some-of-the-other-steps-is-this-enough-to-install-the-app.mdx
-      - page: How often are we paid via Stripe?
+      - page: "How often are we paid via Stripe?"
         path: ./pages/hidden/how-often-are-we-paid-via-stripe.mdx
-      - page: We sell in the US but are not a US-based company. How can I onboard with Stripe?
+      - page: "We sell in the US but are not a US-based company. How can I onboard with Stripe?"
         path: ./pages/hidden/we-sell-in-the-us-but-are-not-a-us-based-company-how-can-i-onboard-with-stripe.mdx
       - page: Overview
         path: ./pages/hidden/overview.mdx
@@ -215,17 +215,17 @@ navigation:
         path: ./pages/hidden/updating-account-details.mdx
       - page: Updating Your Linked Bank Account
         path: ./pages/hidden/updating-your-linked-bank-account.mdx
-      - page: 'Truemed Dashboard: Interpreting Transaction Status'
+      - page: "Truemed Dashboard: Interpreting Transaction Status"
         path: ./pages/hidden/truemed-dashboard-interpreting-transaction-status.mdx
-      - page: 'Truemed Dashboard: Viewing Order Details'
+      - page: "Truemed Dashboard: Viewing Order Details"
         path: ./pages/hidden/truemed-dashboard-viewing-order-details.mdx
-      - page: 'Truemed Dashboard: Viewing Qualification Details'
+      - page: "Truemed Dashboard: Viewing Qualification Details"
         path: ./pages/hidden/truemed-dashboard-viewing-qualification-details.mdx
-      - page: 'Truemed Dashboard: Updating Your Card on File'
+      - page: "Truemed Dashboard: Updating Your Card on File"
         path: ./pages/hidden/truemed-dashboard-updating-your-card-on-file.mdx
-      - page: 'Truemed Dashboard: How to add a user to your account'
+      - page: "Truemed Dashboard: How to add a user to your account"
         path: ./pages/hidden/truemed-dashboard-how-to-add-a-user-to-your-account.mdx
-      - page: 'Product Update: Streamlined Survey & Checkout Experience'
+      - page: "Product Update: Streamlined Survey & Checkout Experience"
         slug: product-update-streamlined-survey-and-checkout-experience
         path: ./pages/hidden/product-update-streamlined-survey-and-checkout-experience.mdx
       - page: FAQs (Payment Integration)
@@ -234,29 +234,29 @@ navigation:
       - page: FAQs (Post-Purchase Reimbursements)
         slug: faqs-post-purchase-reimbursements
         path: ./pages/hidden/faqs-post-purchase-reimbursements.mdx
-      - page: 'Step 1: Welcome to Truemed'
+      - page: "Step 1: Welcome to Truemed"
         path: ./pages/hidden/step-1-welcome-to-truemed.mdx
-      - page: 'Step 2: Checking Out with Truemed'
+      - page: "Step 2: Checking Out with Truemed"
         path: ./pages/hidden/step-2-checking-out-with-truemed.mdx
-      - page: 'Step 3: LMN & Documentation FAQs'
+      - page: "Step 3: LMN & Documentation FAQs"
         slug: step-3-lmn-and-documentation-faqs
         path: ./pages/hidden/step-3-lmn-and-documentation-faqs.mdx
-      - page: 'Step 4: Refunds & Reimbursement'
+      - page: "Step 4: Refunds & Reimbursement"
         slug: step-4-refunds-and-reimbursement
         path: ./pages/hidden/step-4-refunds-and-reimbursement.mdx
-      - page: 'Step 5: Learning About Partial Eligibility'
+      - page: "Step 5: Learning About Partial Eligibility"
         path: ./pages/hidden/step-5-learning-about-partial-eligibility.mdx
   - section: Service Business Guide
     hidden: true
     slug: service-business
     contents:
-      - page: 'Welcome to Truemed: How It Works'
+      - page: "Welcome to Truemed: How It Works"
         path: ./pages/hidden/service-business/welcome-to-truemed-how-it-works.mdx
       - page: The Customer Journey
         path: ./pages/hidden/service-business/the-customer-journey.mdx
-      - page: 'Marketing Playbook: A Successful Launch'
+      - page: "Marketing Playbook: A Successful Launch"
         path: ./pages/hidden/service-business/marketing-playbook-a-successful-launch.mdx
-      - page: 'Staff Resources: About Truemed'
+      - page: "Staff Resources: About Truemed"
         path: ./pages/hidden/service-business/staff-resources-about-truemed.mdx
       - page: FAQs - Questions Your Customers Might Ask
         slug: faqs-questions-your-customers-might-ask
@@ -283,7 +283,7 @@ navigation:
       - page: Email Templates
         slug: sb-email-templates
         path: ./pages/hidden/service-business/sb-email-templates.mdx
-      - page: 'HSA/FSA Promotion: Seasonal Planning'
+      - page: "HSA/FSA Promotion: Seasonal Planning"
         path: ./pages/hidden/service-business/hsa-fsa-promotion-seasonal-planning.mdx
       - page: Using Truemed in Targeted Advertising
         path: ./pages/hidden/service-business/using-truemed-in-targeted-advertising.mdx
@@ -309,7 +309,7 @@ navigation:
         path: ./pages/hidden/service-business/sb-hsa-fsa-ad-templates-for-year-end-promotions.mdx
       - page: New Year, New You Email Templates
         path: ./pages/hidden/service-business/new-year-new-you-email-templates.mdx
-      - page: 'Open Enrollment: Overview & Email Campaign Templates'
+      - page: "Open Enrollment: Overview & Email Campaign Templates"
         slug: open-enrollment-overview-and-email-campaign-templates
         path: ./pages/hidden/service-business/open-enrollment-overview-and-email-campaign-templates.mdx
       - page: Adding Your Business To The Truemed Marketplace
@@ -325,9 +325,3 @@ navigation:
       - page: Q4 Optimization Checklist
         slug: sb-q4-optimization-checklist
         path: ./pages/hidden/service-business/sb-q4-optimization-checklist.mdx
-logo:
-  dark: truemed-logo-teal.svg
-  light: truemed-logo-teal.svg
-colors:
-  accent-primary:
-    light: '#06576f'
