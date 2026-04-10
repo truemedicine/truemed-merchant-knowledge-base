@@ -107,6 +107,145 @@ navigation:
         path: ./pages/hidden/media-kit.mdx
       - page: Reimbursement Attribution
         path: ./pages/hidden/reimbursement-attribution.mdx
+      - page: Custom API Integration
+        path: ./pages/hidden/custom-api-integration.mdx
+      - page: Shopify Account Permissions
+        path: ./pages/hidden/shopify-account-permissions.mdx
+      - page: Finding the Payment App Settings Page
+        path: ./pages/hidden/finding-the-payment-app-settings-page.mdx
+      - page: Installing the Truemed Payment App
+        path: ./pages/hidden/installing-the-truemed-payment-app.mdx
+      - page: Enabling the Truemed Payment App
+        path: ./pages/hidden/enabling-the-truemed-payment-app.mdx
+      - page: Disabling the Truemed Payment App
+        path: ./pages/hidden/disabling-the-truemed-payment-app.mdx
+      - page: Uninstalling the Truemed Payment App
+        path: ./pages/hidden/uninstalling-the-truemed-payment-app.mdx
+      - page: "What is Stripe used for?"
+        path: ./pages/hidden/what-is-stripe-used-for.mdx
+      - page: "We already have a Stripe account. Why do I need to onboard again?"
+        path: ./pages/hidden/we-already-have-a-stripe-account-why-do-i-need-to-onboard-again.mdx
+      - page: 'What does it mean that my Stripe account is "Enabled" vs. "Complete"?'
+        path: ./pages/hidden/what-does-it-mean-that-my-stripe-account-is-enabled-vs-complete.mdx
+      - page: "I have linked our bank account but still need to complete some of the other steps. Is this enough to install the app?"
+        path: ./pages/hidden/i-have-linked-our-bank-account-but-still-need-to-complete-some-of-the-other-steps-is-this-enough-to-install-the-app.mdx
+      - page: "How often are we paid via Stripe?"
+        path: ./pages/hidden/how-often-are-we-paid-via-stripe.mdx
+      - page: "We sell in the US but are not a US-based company. How can I onboard with Stripe?"
+        path: ./pages/hidden/we-sell-in-the-us-but-are-not-a-us-based-company-how-can-i-onboard-with-stripe.mdx
+      - page: Overview
+        path: ./pages/hidden/overview.mdx
+      - page: Optimization Checklist
+        path: ./pages/hidden/optimization-checklist.mdx
+      - page: Highlight Eligible Products with HSA/FSA Badges
+        path: ./pages/hidden/highlight-eligible-products-with-hsa-fsa-badges.mdx
+      - page: Product Page Widget 2
+        path: ./pages/hidden/product-page-widget-2.mdx
+      - page: Checkout Integration
+        path: ./pages/hidden/checkout-integration.mdx
+      - page: Guide to Using HSA/FSA for Extension Ads
+        path: ./pages/hidden/guide-to-using-hsa-fsa-for-extension-ads.mdx
+      - page: Homepage Feature 2
+        path: ./pages/hidden/homepage-feature-2.mdx
+      - page: Abandoned Cart Campaigns
+        path: ./pages/hidden/abandoned-cart-campaigns.mdx
+      - page: Winback Campaigns
+        path: ./pages/hidden/winback-campaigns.mdx
+      - page: New Subscriber / Welcome Flow
+        slug: new-subscriber-welcome-flow
+        path: ./pages/hidden/new-subscriber-welcome-flow.mdx
+      - page: Re-engagement Campaigns
+        path: ./pages/hidden/re-engagement-campaigns.mdx
+      - page: Browse Abandonment
+        path: ./pages/hidden/browse-abandonment.mdx
+      - page: Post-Purchase Flow
+        path: ./pages/hidden/post-purchase-flow.mdx
+      - page: Product Education / How-To Emails
+        slug: product-education-how-to-emails
+        path: ./pages/hidden/product-education-how-to-emails.mdx
+      - page: Loyalty / Rewards Program Emails
+        slug: loyalty-rewards-program-emails
+        path: ./pages/hidden/loyalty-rewards-program-emails.mdx
+      - page: Reactivation Email
+        path: ./pages/hidden/reactivation-email.mdx
+      - page: Subscription Renewal or Refill Reminders
+        path: ./pages/hidden/subscription-renewal-or-refill-reminders.mdx
+      - page: Email Headers & Footers
+        slug: email-headers-and-footers
+        path: ./pages/hidden/email-headers-and-footers.mdx
+      - page: Launch Email
+        path: ./pages/hidden/launch-email.mdx
+      - page: Steady State Emails
+        path: ./pages/hidden/steady-state-emails.mdx
+      - page: Combo Email Templates
+        path: ./pages/hidden/combo-email-templates.mdx
+      - page: Seasonal Site Banners
+        path: ./pages/hidden/seasonal-site-banners.mdx
+      - page: Seasonal Homepage Feature
+        path: ./pages/hidden/seasonal-homepage-feature.mdx
+      - page: Add HSA/FSA Eligible Filters or Badges to Your Products
+        path: ./pages/hidden/add-hsa-fsa-eligible-filters-or-badges-to-your-products.mdx
+      - page: BFCM Email Templates
+        path: ./pages/hidden/bfcm-email-templates.mdx
+      - page: New Year, New You Email Templates
+        path: ./pages/hidden/new-year-new-you-email-templates.mdx
+      - page: HSA/FSA Headers & Footers 2
+        slug: hsa-fsa-headers-and-footers-2
+        path: ./pages/hidden/hsa-fsa-headers-and-footers-2.mdx
+      - page: Abandoned Cart Updates
+        path: ./pages/hidden/abandoned-cart-updates.mdx
+      - page: Social Media Highlight Templates
+        path: ./pages/hidden/social-media-highlight-templates.mdx
+      - page: Seasonal SMS Campaigns
+        path: ./pages/hidden/seasonal-sms-campaigns.mdx
+      - page: Influencer Scripts
+        path: ./pages/hidden/influencer-scripts.mdx
+      - page: Watch Our Q4 Webinar 2
+        slug: watch-our-q4-webinar-2
+        path: ./pages/hidden/watch-our-q4-webinar-2.mdx
+      - page: HSA/FSA Blog Post
+        path: ./pages/hidden/hsa-fsa-blog-post.mdx
+      - page: FSA Expiration Email Templates
+        path: ./pages/hidden/fsa-expiration-email-templates.mdx
+      - page: Open Enrollment Overview and Email Campaign Templates
+        path: ./pages/hidden/open-enrollment-overview-and-email-campaign-templates.mdx
+      - page: Compliant HSA/FSA Messaging
+        path: ./pages/hidden/compliant-hsa-fsa-messaging.mdx
+      - page: Updating Account Details
+        path: ./pages/hidden/updating-account-details.mdx
+      - page: Updating Your Linked Bank Account
+        path: ./pages/hidden/updating-your-linked-bank-account.mdx
+      - page: "Truemed Dashboard: Interpreting Transaction Status"
+        path: ./pages/hidden/truemed-dashboard-interpreting-transaction-status.mdx
+      - page: "Truemed Dashboard: Viewing Order Details"
+        path: ./pages/hidden/truemed-dashboard-viewing-order-details.mdx
+      - page: "Truemed Dashboard: Viewing Qualification Details"
+        path: ./pages/hidden/truemed-dashboard-viewing-qualification-details.mdx
+      - page: "Truemed Dashboard: Updating Your Card on File"
+        path: ./pages/hidden/truemed-dashboard-updating-your-card-on-file.mdx
+      - page: "Truemed Dashboard: How to add a user to your account"
+        path: ./pages/hidden/truemed-dashboard-how-to-add-a-user-to-your-account.mdx
+      - page: "Product Update: Streamlined Survey & Checkout Experience"
+        slug: product-update-streamlined-survey-and-checkout-experience
+        path: ./pages/hidden/product-update-streamlined-survey-and-checkout-experience.mdx
+      - page: FAQs (Payment Integration)
+        slug: faqs-payment-integration
+        path: ./pages/hidden/faqs-payment-integration.mdx
+      - page: FAQs (Post-Purchase Reimbursements)
+        slug: faqs-post-purchase-reimbursements
+        path: ./pages/hidden/faqs-post-purchase-reimbursements.mdx
+      - page: "Step 1: Welcome to Truemed"
+        path: ./pages/hidden/step-1-welcome-to-truemed.mdx
+      - page: "Step 2: Checking Out with Truemed"
+        path: ./pages/hidden/step-2-checking-out-with-truemed.mdx
+      - page: "Step 3: LMN & Documentation FAQs"
+        slug: step-3-lmn-and-documentation-faqs
+        path: ./pages/hidden/step-3-lmn-and-documentation-faqs.mdx
+      - page: "Step 4: Refunds & Reimbursement"
+        slug: step-4-refunds-and-reimbursement
+        path: ./pages/hidden/step-4-refunds-and-reimbursement.mdx
+      - page: "Step 5: Learning About Partial Eligibility"
+        path: ./pages/hidden/step-5-learning-about-partial-eligibility.mdx
   - section: Service Business Guide
     hidden: true
     slug: service-business
@@ -177,3 +316,12 @@ navigation:
         path: ./pages/hidden/service-business/adding-your-business-to-the-truemed-marketplace.mdx
       - page: Manage Your Membership
         path: ./pages/hidden/service-business/manage-your-membership.mdx
+      - page: HSA/FSA Blog Post
+        slug: sb-hsa-fsa-blog-post
+        path: ./pages/hidden/service-business/sb-hsa-fsa-blog-post.mdx
+      - page: Social Post Templates
+        slug: sb-social-post-templates
+        path: ./pages/hidden/service-business/sb-social-post-templates.mdx
+      - page: Q4 Optimization Checklist
+        slug: sb-q4-optimization-checklist
+        path: ./pages/hidden/service-business/sb-q4-optimization-checklist.mdx
