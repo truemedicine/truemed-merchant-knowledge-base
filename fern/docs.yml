@@ -4,8 +4,8 @@ instances:
 title: Truemed Merchant Help Center
 navigation:
   - page: Merchant Hub
-      path: ./docs/pages/merchant-hub.mdx
-          slug: merchant-hub
+    path: ./docs/pages/merchant-hub.mdx
+    slug: merchant-hub
   - section: Partnering with Truemed
     contents:
       - page: How Truemed Works
