@@ -3,6 +3,9 @@ instances:
     custom-domain: support.truemed.com
 title: Truemed Merchant Help Center
 navigation:
+  - page: Merchant Hub
+      path: ./docs/pages/merchant-hub.mdx
+          slug: merchant-hub
   - section: Partnering with Truemed
     contents:
       - page: How Truemed Works
