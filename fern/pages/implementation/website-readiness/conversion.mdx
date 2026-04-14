@@ -1,98 +1,96 @@
 ---
-title: "Conversion: Drive HSA/FSA Revenue at Checkout"
+title: "Conversion: Reduce Friction at Checkout"
 slug: conversion
 ---
 
-This is where site optimization translates into revenue. Merchants who add HSA/FSA messaging to their product pages, cart, and checkout see higher checkout conversion and lower cart abandonment because qualified shoppers have confidence their funds will be accepted before they click "buy."
+Reduce friction at the point of purchase so qualified shoppers follow through. Adding HSA/FSA messaging to your product pages, cart, and checkout gives shoppers confidence their funds will be accepted before they click "buy."
 
-This stage covers three things: the PDP widget, cart and checkout badging, and making sure your CX team is ready for the questions that follow.
+Start with the PDP widget, then add cart and checkout badging.
+
+{/* LOOM: Vik walkthrough of the Conversion phase using Garmin. Cover the PDP widget on the fēnix 8 Pro product page, item-level cart badging (eligible vs. non-eligible items side by side), and the checkout order summary with Truemed badge. [Vik to record and embed] */}
 
 ## Install the PDP Widget
 
-The Truemed widget appears on your product detail pages and tells qualified customers they may be able to pay with HSA/FSA funds. This is typically the first point in the purchase flow where the savings message appears.
+The Truemed widget appears on your product detail pages and tells qualified shoppers they may be able to pay with HSA/FSA funds. It sits alongside your price and "Add to Cart" button.
 
-Your onboarding call enabled Truemed's payment processing, but the widget still needs to be added to your storefront. This is typically a task for your developer or Shopify admin.
+{/* IMAGE: Garmin's fēnix 8 Pro product page showing the Truemed widget below the price: "HSA/FSA eligible for qualified customers [Truemed logo]. Learn more" — positioned between the Affirm financing line and the Case Size selector. */}
 
-### Default vs. Customized Widget
+Garmin places the widget directly below their price and financing options on the fēnix 8 Pro page. The copy reads "HSA/FSA eligible for qualified customers" with a Truemed logo and "Learn more" link that opens a modal explaining how to pay with HSA/FSA.
 
-The default widget works out of the box and displays a standard HSA/FSA eligibility message on the product page. A customized widget that matches your brand's design system and includes a "Learn more" link to your [HSA/FSA landing page](/marketing/website-optimization/consideration) tends to outperform the default. Talk to your CSM about customization options.
+If you have an HSA/FSA landing page from the [Consideration](/consideration) stage, link the widget's "Learn more" to it.
 
-### Implementation
+### How to Implement
 
-Send the [Widget Setup Guide](/integration-guides/widgets/pdp-widget) to your developer. The install takes about 30 minutes for the standard widget.
+For Shopify merchants, the PDP widget install is covered in Step 3 of the [Shopify Setup Guide](/implementation/shopify/setup-guide). The install takes about 30 minutes and includes options for dark mode and showing the widget only on eligible products.
 
-If you offer subscribe-and-save, auto-refill, or any recurring purchase option, you'll also need specific checkout messaging for subscription orders. See the [Subscription Messaging guide](/integration-guides/subscriptions/overview) and have your developer handle it alongside the widget install (about 20 additional minutes).
-
-| | |
-|---|---|
-| **Owner** | Developer or Shopify admin |
-| **Time** | ~30 minutes (plus ~20 minutes if subscriptions apply) |
+If you offer subscribe-and-save or any recurring purchase option, Steps 4 and 6 of the [Shopify Setup Guide](/implementation/shopify/setup-guide) cover the Thank You page widget and checkout banner for subscriptions.
 
 ---
 
 ## Add Cart and Checkout Badging
 
-Add HSA/FSA eligibility messaging in the cart and at the checkout payment step. This reinforces the savings message when the customer is deciding whether to complete their purchase.
+A shopper who saw the widget on the product page should see the HSA/FSA message again when reviewing their order. Consistent messaging through the funnel reduces drop-off.
 
-### What Good Looks Like
+### Item-Level vs. Summary-Level Badging
 
-**Good:** A text line in the cart summary stating the order may be eligible for HSA/FSA.
-**Great:** A visual badge near the cart subtotal that links to your landing page. In checkout, a visual indicator at the payment method step highlighting Truemed as an option. For mixed catalogs, the badge only appears on eligible items, not as a cart-level banner.
+There are two approaches, and which one is right depends on your catalog.
+
+**Item-level badging** places the HSA/FSA message on each eligible line item. This is the right approach for mixed-eligibility catalogs. Garmin does this well: in a cart containing a fēnix 8 Pro (eligible) and a TOPO US 24K West digital map (not eligible), only the watch shows "Eligible for HSA/FSA reimbursement with [Truemed]." The map has no badge.
+
+{/* IMAGE: Garmin's cart page showing two items side by side. The fēnix 8 Pro displays "Eligible for HSA/FSA reimbursement with [Truemed logo]" below its price. The TOPO US 24K West download shows no badge. This is item-level badging for a mixed-eligibility catalog. */}
+
+**Summary-level badging** places a single HSA/FSA message near the cart subtotal. This works for merchants whose entire catalog (or nearly all of it) is eligible.
+
+<Warning>
+For mixed-eligibility catalogs, always use item-level badging. A summary-level banner that implies the entire cart is eligible is non-compliant if some items do not qualify.
+</Warning>
+
+### Carry It Through to Checkout
+
+The same badging should appear in the checkout order summary. Garmin carries their item-level badge into the checkout page: the fēnix 8 Pro still shows the Truemed badge in the order summary sidebar while the shopper enters their shipping and payment details.
+
+{/* IMAGE: Garmin's checkout page showing the order summary sidebar. The fēnix 8 Pro line item displays "Eligible for HSA/FSA reimbursement with [Truemed logo]" below the price. The TOPO map line item shows no badge. */}
 
 ### Copy Patterns
 
-Use these as starting points. Adjust the language to match your brand voice while keeping claims factual and compliant.
+Adjust the language to match your brand voice.
 
 | Placement | Example Copy |
 |---|---|
-| Cart (item-level) | "May be eligible for HSA/FSA with Truemed." |
-| Cart (summary-level) | "[Product category] purchases may be HSA/FSA eligible. [Exclusions] excluded." |
-| Checkout (payment step) | "Pay with HSA/FSA via Truemed. Qualified customers save an average of 30%.*" |
+| Cart (item-level) | "Eligible for HSA/FSA reimbursement with Truemed." |
+| Cart (summary-level) | "[Product category] purchases may be HSA/FSA eligible with Truemed." |
+| Checkout (order summary) | "Eligible for HSA/FSA reimbursement with Truemed." |
 
-*Truemed is for qualified customers. HSA/FSA tax savings vary. Learn more at truemed.com/disclosures.*
+Any copy that references savings must include the compliance disclaimer. A "Learn more" link to your landing page is acceptable in lieu of printing the full disclaimer in the cart drawer.
 
-<Warning>
-Keep cart claims brief and factual. The required disclaimer must be accessible from any savings claim. A "Learn more" link to the landing page is acceptable in lieu of printing the full disclaimer in the cart drawer.
-</Warning>
+### How to Implement
 
-### Implementation
-
-Cart and checkout badging typically requires a developer. Contact [merchants@truemed.com](mailto:merchants@truemed.com) for setup guidance specific to your cart drawer and checkout configuration.
-
-| | |
-|---|---|
-| **Owner** | Developer |
-| **Time** | ~1 hour |
+Cart and checkout badging is available for Shopify merchants. Contact your CSM or [partners@truemed.com](mailto:partners@truemed.com) to turn it on.
 
 ---
 
-## Brief Your CX Team
+## Compliance Reminder
 
-Before promoting HSA/FSA across your site and marketing channels, make sure your support team can handle the questions that follow. Share the [Compliant Messaging Guide](/getting-started/compliant-messaging) with them and confirm they can explain:
+All HSA/FSA messaging on product pages, cart, and checkout must include the following disclaimer:
 
-1. What HSA/FSA is and how it works with your store.
-2. How the Truemed checkout process works (selecting Truemed, completing the clinical intake form, receiving the LMN).
-3. What to do if a customer's qualification is not approved.
+*Truemed is for qualified customers. HSA/FSA tax savings vary. Learn more at truemed.com/disclosures.*
 
-Common customer questions your team should be ready for:
+For the PDP widget, the disclaimer is handled within the widget or the "Learn more" modal. For cart and checkout badging, include it on the same page or link to your landing page.
 
-| Question | How to Handle |
-|---|---|
-| "Why wasn't I approved?" | The determination is made by an independent licensed practitioner based on individual health circumstances. Truemed cannot override or influence the decision. Direct the customer to Truemed support. |
-| "Can I use my HSA/FSA card directly?" | Truemed handles HSA/FSA payment processing at checkout. Customers select "Pay with Truemed" rather than entering their HSA/FSA card number directly. |
-| "Which of your products are eligible?" | Direct them to your HSA/FSA product collection or landing page. Do not make eligibility claims about specific products beyond what Truemed has approved. |
+<Warning>
+Any messaging that references savings must include the compliance disclaimer. If the disclaimer is missing or copy is non-compliant, Truemed may ask you to update or remove the asset.
+</Warning>
 
-| | |
-|---|---|
-| **Owner** | CX / support lead |
-| **Time** | ~15 minutes |
+Want Truemed's team to review your implementation before go-live? Email [partners@truemed.com](mailto:partners@truemed.com).
+
+For the full compliance reference, see the Compliant HSA/FSA Messaging Guide.
+
+{/* LINK NEEDED: Compliant HSA/FSA Messaging Guide -- needs to be in a visible nav location before we can link to it. */}
 
 ---
 
 ## Next Steps
 
-With your site fully optimized across all three stages, you're ready to drive traffic. Head to the Marketing Playbook to set up your [launch email](/marketing/launch-campaigns/launch-email), [paid ads](/marketing/launch-campaigns/paid-ads), [social media](/marketing/launch-campaigns/social-media), and [SMS campaigns](/marketing/launch-campaigns/sms).
+With your site fully optimized across all three stages, you are ready to drive traffic. Head to the Marketing Playbook to set up your [launch email](/marketing/launch-campaigns/launch-email), [paid ads](/marketing/launch-campaigns/paid-ads), [social media](/marketing/launch-campaigns/social-media), and [SMS campaigns](/marketing/launch-campaigns/sms).
 
-## Need Help?
-
-Your CSM is your first point of contact for strategy, creative review, and troubleshooting. For general support, email [partners@truemed.com](mailto:partners@truemed.com). For approved language and claims guidance, see the [Compliant HSA/FSA Messaging Guide](/getting-started/compliant-messaging).
+Need help? Your Customer Success Manager can review your Conversion implementation. For general support, email [partners@truemed.com](mailto:partners@truemed.com).
