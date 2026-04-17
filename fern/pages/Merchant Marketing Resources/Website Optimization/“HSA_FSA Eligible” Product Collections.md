@@ -21,7 +21,7 @@ Create a dedicated collection page labeled **“HSA/FSA Eligible”** so custome
 Add a filter in your navigation (or sidebar) that lets customers **sort by eligibility**. This is especially useful if your catalog is large or has mixed eligibility.
 
 **3. Product Badges or Labels**
-Display an [**“HSA/FSA Eligible” badge** ](https://support.truemed.com/en/articles/8777537)on the product thumbnail and/or product detail page (PDP). This draws immediate attention to qualifying items.
+Display an [**“HSA/FSA Eligible” badge** ](https://support.truemed.com/resources/highlight-eligible-products-with-hsa-fsa-badges)on the product thumbnail and/or product detail page (PDP). This draws immediate attention to qualifying items.
 ***
 ## **How to add an HSA/FSA Eligible Filter**
 
@@ -45,4 +45,4 @@ Even small UX improvements like these make a big difference in performance.
 
 Add badges to HSA/FSA eligible products so customers can easily identify eligible items.
 
-![](https://cdn.applied.guide/media/886214b8-01bd-4c9d-8591-1d6ccbcc8c0e/7b716ef1-4311-4c04-b4d0-deee9601a3b8.png)**Download assets [here](https://support.truemed.com/en/articles/8777537).**
+![](https://cdn.applied.guide/media/886214b8-01bd-4c9d-8591-1d6ccbcc8c0e/7b716ef1-4311-4c04-b4d0-deee9601a3b8.png)**Download assets [here](https://support.truemed.com/resources/highlight-eligible-products-with-hsa-fsa-badges).**

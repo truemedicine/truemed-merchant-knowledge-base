@@ -1,4 +1,4 @@
-If you have an [HSA/FSA landing page](https://support.truemed.com/en/articles/4607553):
+If you have an [HSA/FSA landing page](https://support.truemed.com/service-business/hsa-fsa-promotion-seasonal-planning):
 
 [table]
 
@@ -18,4 +18,4 @@ Please include our compliance disclaimer on any HSA/FSA messaging:
 
 If the disclaimer is missing or if your ad copy is misleading, incomplete, or otherwise non-compliant with the law or your agreement with Truemed, we may ask you to update or remove the asset. If you’d like our team to review marketing assets prior to go-live, email us at [merchants@truemed.com](mailto:merchants@truemed.com).
 
-Need more guidance on what you can say about HSA/FSA? Review the [**Compliant HSA/FSA Messaging Guide**](https://support.truemed.com/en/articles/2489153) and remember to add our required disclaimer with any savings claims.
+Need more guidance on what you can say about HSA/FSA? Review the [**Compliant HSA/FSA Messaging Guide**](https://support.truemed.com/resources/compliant-hsa-fsa-messaging) and remember to add our required disclaimer with any savings claims.

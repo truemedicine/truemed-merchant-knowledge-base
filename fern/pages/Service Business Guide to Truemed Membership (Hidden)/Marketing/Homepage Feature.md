@@ -2,7 +2,7 @@
 title: "Homepage Feature"---
 
 
-Featuring your partnership with a homepage block ensures that customers are aware of this payment option, and can quickly navigate them to shop for [HSA/FSA eligible products](https://support.truemed.com/en/articles/5809153).
+Featuring your partnership with a homepage block ensures that customers are aware of this payment option, and can quickly navigate them to shop for [HSA/FSA eligible products](https://support.truemed.com/resources/hsa-fsa-eligible-product-collections).
 
 ![](https://cdn.applied.guide/media/886214b8-01bd-4c9d-8591-1d6ccbcc8c0e/a5016226-3750-41a1-b7dc-99b7335e1646.png)
 
@@ -30,7 +30,7 @@ Please include our compliance disclaimer on any HSA/FSA messaging:
 
 If the disclaimer is missing or if your ad copy is misleading, incomplete, or otherwise non-compliant with the law or your agreement with Truemed, we may ask you to update or remove the asset. If you’d like our team to review marketing assets prior to go-live, email us at [merchants@truemed.com](mailto:merchants@truemed.com).
 
-Need more guidance on what you can say about HSA/FSA? Review the [**Compliant HSA/FSA Messaging Guide**](https://support.truemed.com/en/articles/2489153) and remember to add our required disclaimer with any savings claims.
+Need more guidance on what you can say about HSA/FSA? Review the [**Compliant HSA/FSA Messaging Guide**](https://support.truemed.com/resources/compliant-hsa-fsa-messaging) and remember to add our required disclaimer with any savings claims.
 
 ## **Why It Matters**
 

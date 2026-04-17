@@ -27,7 +27,7 @@ Highlighting HSA/FSA eligibility in your extension ads can increase click-throug
 
 - Sitelinks allow for deeper engagement and can be controlled for SEO optimization.
 
-- Ensure that one of the indented sitelinks directs users to a [**landing page**](https://support.truemed.com/en/articles/4657729) dedicated to HSA/FSA eligibility.
+- Ensure that one of the indented sitelinks directs users to a [**landing page**](https://support.truemed.com/resources/hsa-fsa-landing-page) dedicated to HSA/FSA eligibility.
 
 4\. **Price Extensions**
 
@@ -39,7 +39,7 @@ Highlighting HSA/FSA eligibility in your extension ads can increase click-throug
 
 - **Ensure Accuracy:** Double-check that all advertised products meet HSA/FSA eligibility requirements.
 
-- **Dedicated Landing Page:** Link sitelinks to a clear, [**informative page**](https://support.truemed.com/en/articles/4657729) about HSA/FSA payments.
+- **Dedicated Landing Page:** Link sitelinks to a clear, [**informative page**](https://support.truemed.com/resources/hsa-fsa-landing-page) about HSA/FSA payments.
 
 - **Consistent Messaging:** Align ad copy with website content to reinforce the HSA/FSA value proposition.
 

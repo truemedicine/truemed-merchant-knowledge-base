@@ -18,4 +18,4 @@ Truemed is optimized for **automatic capture**, which is Shopify's default setti
 
 3. If set to **“Automatically capture payment for orders,”** you are all set.
 
-If you are using manual capture and need help adapting your flow, refer to this [detailed guide](https://support.truemed.com/en/articles/6117185).
+If you are using manual capture and need help adapting your flow, refer to this [detailed guide](https://support.truemed.com/resources/capturing-and-managing-truemed-orders-in-shopify).

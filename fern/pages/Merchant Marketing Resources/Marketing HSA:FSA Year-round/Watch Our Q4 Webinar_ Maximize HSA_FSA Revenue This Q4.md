@@ -17,4 +17,4 @@ title: "Watch Our Q4 Webinar_ Maximize HSA_FSA Revenue This Q4"---
 
 - A walkthrough of our new **Q4 Optimization Checklist**
 
-## [**Download our Q4 Optimization Checklist**](https://support.truemed.com/en/articles/7222593#download_the_q_4_optimization_checklist_here)
+## [**Download our Q4 Optimization Checklist**](https://support.truemed.com/resources/the-q4-opportunity-and-optimization-checklist#download_the_q_4_optimization_checklist_here)

@@ -16,6 +16,6 @@ Add this question to your FAQ: 
 
 Copy and paste these questions and answers to your FAQs:
 
-- [**FAQ Guide**](https://support.truemed.com/en/articles/2567233) for merchant partners with our Shopify/payments integration who **do not** have any subscription products
+- [**FAQ Guide**](https://support.truemed.com/account-management/staff-resources-training/how-truemed-works-team-overview) for merchant partners with our Shopify/payments integration who **do not** have any subscription products
 
-- [**FAQ Guide**](https://support.truemed.com/en/articles/2567745) for merchant partners with our Shopify/payments integration who **do** offer subscription products
+- [**FAQ Guide**](https://support.truemed.com/account-management/staff-resources-training/how-truemed-works-team-overview) for merchant partners with our Shopify/payments integration who **do** offer subscription products

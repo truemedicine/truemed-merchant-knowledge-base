@@ -70,7 +70,7 @@ Another example:
 
 An FAQ section provides added service to your customers by answering common questions. It helps shoppers quickly find information, which can improve their likelihood to click and buy. Plus, it can improve how your page appears in search. Five to seven questions tends to be a good “sweet spot” to provide info without overwhelm.
 
-![](https://cdn.applied.guide/media/886214b8-01bd-4c9d-8591-1d6ccbcc8c0e/70228819-220f-47b4-a0c3-594a92f3b42e.jpeg)**Find FAQs to add to your page within our [Landing Page Templates](https://support.truemed.com/en/articles/4657729#figma_file_templates).**
+![](https://cdn.applied.guide/media/886214b8-01bd-4c9d-8591-1d6ccbcc8c0e/70228819-220f-47b4-a0c3-594a92f3b42e.jpeg)**Find FAQs to add to your page within our [Landing Page Templates](https://support.truemed.com/resources/hsa-fsa-landing-page#figma_file_templates).**
 
 ## **Add Internal Links To Your Landing Page**
 
