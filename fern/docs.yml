@@ -346,3 +346,436 @@ logo:
 colors:
   accent-primary:
     light: "#06576F"
+redirects:
+  - source: "/"
+    destination: "/"
+    permanent: true
+  - source: "/en/articles/2439489"
+    destination: "/account-management/staff-resources-training"
+    permanent: true
+  - source: "/en/articles/2463361"
+    destination: "/implementation/shopify/setup-guide"
+    permanent: true
+  - source: "/en/articles/2463425"
+    destination: "/getting-started/payment-integration/intro-to-truemed-on-shopify"
+    permanent: true
+  - source: "/en/articles/2463553"
+    destination: "/getting-started/stripe-setup/stripe-onboarding-connection"
+    permanent: true
+  - source: "/en/articles/2463617"
+    destination: "/resources/what-is-stripe-used-for"
+    permanent: true
+  - source: "/en/articles/2463681"
+    destination: "/resources/we-sell-in-the-us-but-are-not-a-us-based-company-how-can-i-onboard-with-stripe"
+    permanent: true
+  - source: "/en/articles/2463745"
+    destination: "/resources/i-have-linked-our-bank-account-but-still-need-to-complete-some-of-the-other-steps-is-this-enough-to-install-the-app"
+    permanent: true
+  - source: "/en/articles/2463809"
+    destination: "/resources/we-already-have-a-stripe-account-why-do-i-need-to-onboard-again"
+    permanent: true
+  - source: "/en/articles/2463873"
+    destination: "/resources/what-does-it-mean-that-my-stripe-account-is-enabled-vs-complete"
+    permanent: true
+  - source: "/en/articles/2463937"
+    destination: "/resources/how-often-are-we-paid-via-stripe"
+    permanent: true
+  - source: "/en/articles/2464193"
+    destination: "/troubleshooting/shopify-issues"
+    permanent: true
+  - source: "/en/articles/2464257"
+    destination: "/resources/product-page-widget"
+    permanent: true
+  - source: "/en/articles/2465025"
+    destination: "/troubleshooting/sku-upload"
+    permanent: true
+  - source: "/en/articles/2465345"
+    destination: "/getting-started/payment-integration/intro-to-truemed-on-woo-commerce"
+    permanent: true
+  - source: "/en/articles/2465537"
+    destination: "/resources/shopify-account-permissions"
+    permanent: true
+  - source: "/en/articles/2465665"
+    destination: "/resources/installing-the-truemed-payment-app"
+    permanent: true
+  - source: "/en/articles/2467009"
+    destination: "/resources/enabling-the-truemed-payment-app"
+    permanent: true
+  - source: "/en/articles/2468481"
+    destination: "/resources/disabling-the-truemed-payment-app"
+    permanent: true
+  - source: "/en/articles/2468545"
+    destination: "/resources/uninstalling-the-truemed-payment-app"
+    permanent: true
+  - source: "/en/articles/2468609"
+    destination: "/resources/finding-the-payment-app-settings-page"
+    permanent: true
+  - source: "/en/articles/2474689"
+    destination: "/partnering-with-truemed/how-truemed-works"
+    permanent: true
+  - source: "/en/articles/2474753"
+    destination: "/resources/order-confirmation-widget"
+    permanent: true
+  - source: "/en/articles/2475201"
+    destination: "/implementation/reimbursements/setup-guide"
+    permanent: true
+  - source: "/en/articles/2475329"
+    destination: "/resources/post-purchase-email-snippet"
+    permanent: true
+  - source: "/en/articles/2475521"
+    destination: "/resources/updating-account-details"
+    permanent: true
+  - source: "/en/articles/2475585"
+    destination: "/resources/updating-your-linked-bank-account"
+    permanent: true
+  - source: "/en/articles/2475649"
+    destination: "/account-management/staff-resources-training"
+    permanent: true
+  - source: "/en/articles/2475841"
+    destination: "/resources/truemed-dashboard-updating-your-card-on-file"
+    permanent: true
+  - source: "/en/articles/2476033"
+    destination: "/resources/truemed-dashboard-how-to-add-a-user-to-your-account"
+    permanent: true
+  - source: "/en/articles/2489153"
+    destination: "/resources/compliant-hsa-fsa-messaging"
+    permanent: true
+  - source: "/en/articles/2567233"
+    destination: "/account-management/staff-resources-training"
+    permanent: true
+  - source: "/en/articles/2567745"
+    destination: "/account-management/staff-resources-training"
+    permanent: true
+  - source: "/en/articles/2591233"
+    destination: "/partnering-with-truemed/what-is-required-to-get-started"
+    permanent: true
+  - source: "/en/articles/2591297"
+    destination: "/resources/overview"
+    permanent: true
+  - source: "/en/articles/2591361"
+    destination: "/resources/media-kit"
+    permanent: true
+  - source: "/en/articles/2591425"
+    destination: "/resources/payment-integration-customer-journey"
+    permanent: true
+  - source: "/en/articles/2591489"
+    destination: "/resources/reimbursements-customer-journey"
+    permanent: true
+  - source: "/en/articles/2591617"
+    destination: "/partnering-with-truemed/eligibility-what-businesses-qualify"
+    permanent: true
+  - source: "/en/articles/2591681"
+    destination: "/partnering-with-truemed/compliance"
+    permanent: true
+  - source: "/en/articles/2889537"
+    destination: "/resources/order-authorization-and-medical-necessity-process"
+    permanent: true
+  - source: "/en/articles/3276033"
+    destination: "/resources/custom-api-integration"
+    permanent: true
+  - source: "/en/articles/3634049"
+    destination: "/resources/reimbursement-attribution"
+    permanent: true
+  - source: "/en/articles/3977921"
+    destination: "/service-business/welcome-to-truemed-how-it-works"
+    permanent: true
+  - source: "/en/articles/3977985"
+    destination: "/service-business/the-customer-journey"
+    permanent: true
+  - source: "/en/articles/3978241"
+    destination: "/service-business/manage-your-membership"
+    permanent: true
+  - source: "/en/articles/4435137"
+    destination: "/resources/truemed-dashboard-viewing-order-details"
+    permanent: true
+  - source: "/en/articles/4478081"
+    destination: "/resources/truemed-dashboard-interpreting-transaction-status"
+    permanent: true
+  - source: "/en/articles/4607041"
+    destination: "/service-business/marketing-playbook-a-successful-launch"
+    permanent: true
+  - source: "/en/articles/4607105"
+    destination: "/service-business/staff-resources-about-truemed"
+    permanent: true
+  - source: "/en/articles/4607169"
+    destination: "/service-business/using-truemed-in-targeted-advertising"
+    permanent: true
+  - source: "/en/articles/4607297"
+    destination: "/service-business/faqs-questions-your-customers-might-ask"
+    permanent: true
+  - source: "/en/articles/4607361"
+    destination: "/service-business/sb-hsa-fsa-landing-page"
+    permanent: true
+  - source: "/en/articles/4607425"
+    destination: "/service-business/sb-email-templates"
+    permanent: true
+  - source: "/en/articles/4607489"
+    destination: "/service-business/purpose-and-promotional-principles"
+    permanent: true
+  - source: "/en/articles/4607553"
+    destination: "/service-business/hsa-fsa-promotion-seasonal-planning"
+    permanent: true
+  - source: "/en/articles/4607617"
+    destination: "/service-business/homepage-feature"
+    permanent: true
+  - source: "/en/articles/4607681"
+    destination: "/service-business/sb-homepage-banner"
+    permanent: true
+  - source: "/en/articles/4607745"
+    destination: "/service-business/banner-on-pricing-pages"
+    permanent: true
+  - source: "/en/articles/4607809"
+    destination: "/service-business/sb-social-post-templates"
+    permanent: true
+  - source: "/en/articles/4607873"
+    destination: "/service-business/in-app-push-notification"
+    permanent: true
+  - source: "/en/articles/4608001"
+    destination: "/service-business/in-studio-qr-code-flyer"
+    permanent: true
+  - source: "/en/articles/4608065"
+    destination: "/service-business/sb-q4-promotion"
+    permanent: true
+  - source: "/en/articles/4608193"
+    destination: "/service-business/adding-your-business-to-the-truemed-marketplace"
+    permanent: true
+  - source: "/en/articles/4657665"
+    destination: "/implementation/website-readiness/website-readiness"
+    permanent: true
+  - source: "/en/articles/4657729"
+    destination: "/resources/hsa-fsa-landing-page"
+    permanent: true
+  - source: "/en/articles/4657857"
+    destination: "/resources/product-page-widget-2"
+    permanent: true
+  - source: "/en/articles/4657921"
+    destination: "/resources/homepage-banner"
+    permanent: true
+  - source: "/en/articles/4657985"
+    destination: "/resources/faq-page-updates"
+    permanent: true
+  - source: "/en/articles/4658049"
+    destination: "/resources/checkout-integration"
+    permanent: true
+  - source: "/en/articles/4658113"
+    destination: "/resources/launch-email"
+    permanent: true
+  - source: "/en/articles/4658177"
+    destination: "/resources/steady-state-emails"
+    permanent: true
+  - source: "/en/articles/4658241"
+    destination: "/resources/reactivation-email"
+    permanent: true
+  - source: "/en/articles/4737601"
+    destination: "/implementation/website-readiness/discovery"
+    permanent: true
+  - source: "/en/articles/4737665"
+    destination: "/implementation/website-readiness/consideration"
+    permanent: true
+  - source: "/en/articles/4737729"
+    destination: "/implementation/website-readiness/conversion"
+    permanent: true
+  - source: "/en/articles/4737857"
+    destination: "/resources/paid-ads-unlocking-revenue-potential"
+    permanent: true
+  - source: "/en/articles/4738049"
+    destination: "/resources/social-channels"
+    permanent: true
+  - source: "/en/articles/4738113"
+    destination: "/resources/homepage-feature-2"
+    permanent: true
+  - source: "/en/articles/4738177"
+    destination: "/resources/combo-email-templates"
+    permanent: true
+  - source: "/en/articles/4739009"
+    destination: "/resources/guide-to-using-hsa-fsa-for-extension-ads"
+    permanent: true
+  - source: "/en/articles/4739201"
+    destination: "/resources/optimization-checklist"
+    permanent: true
+  - source: "/en/articles/4805825"
+    destination: "/account-management/staff-resources-training"
+    permanent: true
+  - source: "/en/articles/4805889"
+    destination: "/account-management/staff-resources-training"
+    permanent: true
+  - source: "/en/articles/4807489"
+    destination: "/account-management/staff-resources-training"
+    permanent: true
+  - source: "/en/articles/4807617"
+    destination: "/account-management/staff-resources-training"
+    permanent: true
+  - source: "/en/articles/5239361"
+    destination: "/resources/post-purchase-qualification-link-app"
+    permanent: true
+  - source: "/en/articles/5380033"
+    destination: "/service-business/inserting-hsa-fsa-messaging-into-existing-email-flows"
+    permanent: true
+  - source: "/en/articles/5427009"
+    destination: "/resources/multicard-checkout"
+    permanent: true
+  - source: "/en/articles/5809153"
+    destination: "/resources/hsa-fsa-eligible-product-collections"
+    permanent: true
+  - source: "/en/articles/5973377"
+    destination: "/resources/drive-more-hsa-fsa-sales-with-sms"
+    permanent: true
+  - source: "/en/articles/6117185"
+    destination: "/resources/capturing-and-managing-truemed-orders-in-shopify"
+    permanent: true
+  - source: "/en/articles/6517249"
+    destination: "/resources/abandoned-cart-campaigns"
+    permanent: true
+  - source: "/en/articles/6517313"
+    destination: "/resources/new-subscriber-welcome-flow"
+    permanent: true
+  - source: "/en/articles/6517377"
+    destination: "/resources/winback-campaigns"
+    permanent: true
+  - source: "/en/articles/6518145"
+    destination: "/resources/re-engagement-campaigns"
+    permanent: true
+  - source: "/en/articles/6518849"
+    destination: "/resources/post-purchase-flow"
+    permanent: true
+  - source: "/en/articles/6519297"
+    destination: "/resources/browse-abandonment"
+    permanent: true
+  - source: "/en/articles/6519361"
+    destination: "/resources/product-education-how-to-emails"
+    permanent: true
+  - source: "/en/articles/6519425"
+    destination: "/resources/loyalty-rewards-program-emails"
+    permanent: true
+  - source: "/en/articles/6519553"
+    destination: "/resources/subscription-renewal-or-refill-reminders"
+    permanent: true
+  - source: "/en/articles/6519681"
+    destination: "/resources/email-headers-and-footers"
+    permanent: true
+  - source: "/en/articles/7209921"
+    destination: "/resources/seasonal-site-banners"
+    permanent: true
+  - source: "/en/articles/7210241"
+    destination: "/resources/open-enrollment-overview-and-email-campaign-templates"
+    permanent: true
+  - source: "/en/articles/7220033"
+    destination: "/resources/hsa-fsa-ad-templates-for-bfcm-and-year-end-promotions"
+    permanent: true
+  - source: "/en/articles/7220737"
+    destination: "/resources/bfcm-email-templates"
+    permanent: true
+  - source: "/en/articles/7220865"
+    destination: "/resources/fsa-expiration-email-templates"
+    permanent: true
+  - source: "/en/articles/7221057"
+    destination: "/resources/new-year-new-you-email-templates"
+    permanent: true
+  - source: "/en/articles/7221441"
+    destination: "/resources/seasonal-homepage-feature"
+    permanent: true
+  - source: "/en/articles/7221889"
+    destination: "/resources/hsa-fsa-blog-post"
+    permanent: true
+  - source: "/en/articles/7222017"
+    destination: "/resources/hsa-fsa-headers-and-footers-2"
+    permanent: true
+  - source: "/en/articles/7222209"
+    destination: "/resources/abandoned-cart-updates"
+    permanent: true
+  - source: "/en/articles/7222593"
+    destination: "/resources/the-q4-opportunity-and-optimization-checklist"
+    permanent: true
+  - source: "/en/articles/7223489"
+    destination: "/resources/seasonal-sms-campaigns"
+    permanent: true
+  - source: "/en/articles/7223553"
+    destination: "/resources/social-media-highlight-templates"
+    permanent: true
+  - source: "/en/articles/7223745"
+    destination: "/resources/influencer-scripts"
+    permanent: true
+  - source: "/en/articles/7223937"
+    destination: "/resources/watch-our-q4-webinar-2"
+    permanent: true
+  - source: "/en/articles/7261761"
+    destination: "/resources/add-hsa-fsa-eligible-filters-or-badges-to-your-products"
+    permanent: true
+  - source: "/en/articles/7543425"
+    destination: "/resources/truemed-launch-toolkit"
+    permanent: true
+  - source: "/en/articles/7986049"
+    destination: "/service-business/sb-q4-optimization-checklist"
+    permanent: true
+  - source: "/en/articles/7986113"
+    destination: "/service-business/sb-hsa-fsa-blog-post"
+    permanent: true
+  - source: "/en/articles/7986177"
+    destination: "/service-business/open-enrollment-overview-and-email-campaign-templates"
+    permanent: true
+  - source: "/en/articles/7986241"
+    destination: "/service-business/fsa-expiration-email-templates"
+    permanent: true
+  - source: "/en/articles/7986305"
+    destination: "/service-business/new-year-new-you-email-templates"
+    permanent: true
+  - source: "/en/articles/7986433"
+    destination: "/service-business/hsa-fsa-headers-and-footers"
+    permanent: true
+  - source: "/en/articles/7986497"
+    destination: "/service-business/sb-hsa-fsa-ad-templates-for-year-end-promotions"
+    permanent: true
+  - source: "/en/articles/7986561"
+    destination: "/service-business/watch-our-q4-webinar"
+    permanent: true
+  - source: "/en/articles/7986625"
+    destination: "/service-business/sb-faq-page-updates"
+    permanent: true
+  - source: "/en/articles/8038721"
+    destination: "/implementation/website-readiness/website-readiness-in-store"
+    permanent: true
+  - source: "/en/articles/8038785"
+    destination: "/service-business/highlight-hsa-fsa-access-in-navigation-or-footer"
+    permanent: true
+  - source: "/en/articles/8192577"
+    destination: "/resources/product-update-streamlined-survey-and-checkout-experience"
+    permanent: true
+  - source: "/en/articles/8777537"
+    destination: "/resources/highlight-eligible-products-with-hsa-fsa-badges"
+    permanent: true
+  - source: "/en/articles/8794561"
+    destination: "/resources/truemed-dashboard-viewing-qualification-details"
+    permanent: true
+  - source: "/en/articles/8795201"
+    destination: "/resources/checkout-messaging-for-subscription-products"
+    permanent: true
+  - source: "/en/articles/collection/1065217"
+    destination: "/account-management/staff-resources-training"
+    permanent: true
+  - source: "/en/articles/collection/1065409"
+    destination: "/partnering-with-truemed/how-truemed-works"
+    permanent: true
+  - source: "/en/articles/collection/1065409/1065601"
+    destination: "/implementation/shopify/setup-guide"
+    permanent: true
+  - source: "/en/articles/collection/1065409/564609"
+    destination: "/getting-started/stripe-setup/stripe-onboarding-connection"
+    permanent: true
+  - source: "/en/articles/collection/1065409/598785"
+    destination: "/getting-started/payment-integration/intro-to-truemed-on-shopify"
+    permanent: true
+  - source: "/en/articles/collection/552769"
+    destination: "/implementation/shopify/setup-guide"
+    permanent: true
+  - source: "/en/articles/collection/552769/1078209"
+    destination: "/implementation/website-readiness/website-readiness"
+    permanent: true
+  - source: "/en/articles/collection/552769/571137"
+    destination: "/resources/product-page-widget"
+    permanent: true
+  - source: "/en/articles/collection/555073"
+    destination: "/account-management/staff-resources-training"
+    permanent: true
+  - source: "/en/articles/collection/898177"
+    destination: "/service-business/welcome-to-truemed-how-it-works"
+    permanent: true
