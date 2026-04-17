@@ -60,20 +60,20 @@ navigation:
         path: ./pages/troubleshooting/sku-upload.mdx
   - section: Account Management
     contents:
-      - page: Staff Resources & Training
-        path: ./pages/account-management/staff-resources-and-training.mdx
-  - section: Staff Training
-    contents:
-      - page: How Truemed Works (Team Overview)
-        path: ./pages/staff-training/how-truemed-works-team-overview.mdx
-      - page: The Customer Checkout Experience
-        path: ./pages/staff-training/customer-checkout-experience.mdx
-      - page: Common Customer Questions
-        path: ./pages/staff-training/common-customer-questions.mdx
-      - page: Refunds, Returns & Disputes
-        path: ./pages/staff-training/refunds-returns-disputes.mdx
-      - page: When to Escalate to Truemed
-        path: ./pages/staff-training/when-to-escalate-to-truemed.mdx
+      - section: Staff Resources & Training
+        contents:
+          - page: Overview
+            path: ./pages/account-management/staff-resources-and-training.mdx
+          - page: How Truemed Works (Team Overview)
+            path: ./pages/staff-training/how-truemed-works-team-overview.mdx
+          - page: The Customer Checkout Experience
+            path: ./pages/staff-training/customer-checkout-experience.mdx
+          - page: Common Customer Questions
+            path: ./pages/staff-training/common-customer-questions.mdx
+          - page: Refunds, Returns & Disputes
+            path: ./pages/staff-training/refunds-returns-disputes.mdx
+          - page: When to Escalate to Truemed
+            path: ./pages/staff-training/when-to-escalate-to-truemed.mdx
   - section: Resources
     hidden: true
     slug: resources
