@@ -50,8 +50,6 @@ navigation:
             path: ./pages/implementation/website-readiness/consideration.mdx
           - page: Conversion
             path: ./pages/implementation/website-readiness/conversion.mdx
-          - page: Website Readiness (In-Store)
-            path: ./pages/implementation/website-readiness/website-readiness-in-store.mdx
   - section: Troubleshooting
     contents:
       - page: Shopify Issues
@@ -730,7 +728,7 @@ redirects:
     destination: "/service-business/sb-faq-page-updates"
     permanent: true
   - source: "/en/articles/8038721"
-    destination: "/implementation/website-readiness/website-readiness-in-store"
+    destination: "/implementation/website-readiness/website-readiness"
     permanent: true
   - source: "/en/articles/8038785"
     destination: "/service-business/highlight-hsa-fsa-access-in-navigation-or-footer"
