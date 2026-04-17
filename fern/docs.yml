@@ -62,8 +62,6 @@ navigation:
     contents:
       - section: Staff Resources & Training
         contents:
-          - page: Overview
-            path: ./pages/account-management/staff-resources-and-training.mdx
           - page: How Truemed Works (Team Overview)
             path: ./pages/staff-training/how-truemed-works-team-overview.mdx
           - page: The Customer Checkout Experience
@@ -351,7 +349,7 @@ redirects:
     destination: "/"
     permanent: true
   - source: "/en/articles/2439489"
-    destination: "/account-management/staff-resources-training"
+    destination: "/account-management/staff-resources-training/how-truemed-works-team-overview"
     permanent: true
   - source: "/en/articles/2463361"
     destination: "/implementation/shopify/setup-guide"
@@ -429,7 +427,7 @@ redirects:
     destination: "/resources/updating-your-linked-bank-account"
     permanent: true
   - source: "/en/articles/2475649"
-    destination: "/account-management/staff-resources-training"
+    destination: "/account-management/staff-resources-training/how-truemed-works-team-overview"
     permanent: true
   - source: "/en/articles/2475841"
     destination: "/resources/truemed-dashboard-updating-your-card-on-file"
@@ -441,10 +439,10 @@ redirects:
     destination: "/resources/compliant-hsa-fsa-messaging"
     permanent: true
   - source: "/en/articles/2567233"
-    destination: "/account-management/staff-resources-training"
+    destination: "/account-management/staff-resources-training/how-truemed-works-team-overview"
     permanent: true
   - source: "/en/articles/2567745"
-    destination: "/account-management/staff-resources-training"
+    destination: "/account-management/staff-resources-training/how-truemed-works-team-overview"
     permanent: true
   - source: "/en/articles/2591233"
     destination: "/partnering-with-truemed/what-is-required-to-get-started"
@@ -594,16 +592,16 @@ redirects:
     destination: "/resources/optimization-checklist"
     permanent: true
   - source: "/en/articles/4805825"
-    destination: "/account-management/staff-resources-training"
+    destination: "/account-management/staff-resources-training/how-truemed-works-team-overview"
     permanent: true
   - source: "/en/articles/4805889"
-    destination: "/account-management/staff-resources-training"
+    destination: "/account-management/staff-resources-training/how-truemed-works-team-overview"
     permanent: true
   - source: "/en/articles/4807489"
-    destination: "/account-management/staff-resources-training"
+    destination: "/account-management/staff-resources-training/how-truemed-works-team-overview"
     permanent: true
   - source: "/en/articles/4807617"
-    destination: "/account-management/staff-resources-training"
+    destination: "/account-management/staff-resources-training/how-truemed-works-team-overview"
     permanent: true
   - source: "/en/articles/5239361"
     destination: "/resources/post-purchase-qualification-link-app"
@@ -750,7 +748,7 @@ redirects:
     destination: "/resources/checkout-messaging-for-subscription-products"
     permanent: true
   - source: "/en/articles/collection/1065217"
-    destination: "/account-management/staff-resources-training"
+    destination: "/account-management/staff-resources-training/how-truemed-works-team-overview"
     permanent: true
   - source: "/en/articles/collection/1065409"
     destination: "/partnering-with-truemed/how-truemed-works"
@@ -774,7 +772,7 @@ redirects:
     destination: "/resources/product-page-widget"
     permanent: true
   - source: "/en/articles/collection/555073"
-    destination: "/account-management/staff-resources-training"
+    destination: "/account-management/staff-resources-training/how-truemed-works-team-overview"
     permanent: true
   - source: "/en/articles/collection/898177"
     destination: "/service-business/welcome-to-truemed-how-it-works"
