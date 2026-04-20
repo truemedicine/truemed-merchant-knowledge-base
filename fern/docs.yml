@@ -339,6 +339,7 @@ navigation:
 logo:
   dark: truemed-logo-teal.svg
   light: truemed-logo-teal.svg
+  href: https://www.truemed.com
 colors:
   accent-primary:
     light: "#06576F"
