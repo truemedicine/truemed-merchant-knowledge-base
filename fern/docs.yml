@@ -344,6 +344,9 @@ colors:
   accent-primary:
     light: "#06576F"
 redirects:
+  - source: "/en/articles/2575105"
+    destination: "/troubleshooting/sku-upload"
+    permanent: true
   - source: "/"
     destination: "/"
     permanent: true
