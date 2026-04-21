@@ -357,16 +357,28 @@ redirects:
     destination: "/getting-started/stripe-setup/stripe-onboarding-connection"
     permanent: true
   - source: "/marketing/website-optimization/discovery"
-    destination: "/implementation/website-readiness/discovery"
+    destination: "/discovery"
     permanent: true
   - source: "/marketing/website-optimization/consideration"
-    destination: "/implementation/website-readiness/consideration"
+    destination: "/consideration"
     permanent: true
   - source: "/marketing/website-optimization/conversion"
-    destination: "/implementation/website-readiness/conversion"
+    destination: "/conversion"
     permanent: true
   - source: "/marketing/website-optimization"
-    destination: "/implementation/website-readiness/website-readiness"
+    destination: "/website-readiness"
+    permanent: true
+  - source: "/implementation/website-readiness/discovery"
+    destination: "/discovery"
+    permanent: true
+  - source: "/implementation/website-readiness/consideration"
+    destination: "/consideration"
+    permanent: true
+  - source: "/implementation/website-readiness/conversion"
+    destination: "/conversion"
+    permanent: true
+  - source: "/implementation/website-readiness/website-readiness"
+    destination: "/website-readiness"
     permanent: true
   - source: "/"
     destination: "/"
