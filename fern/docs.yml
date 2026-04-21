@@ -347,6 +347,15 @@ redirects:
   - source: "/en/articles/2575105"
     destination: "/troubleshooting/sku-upload"
     permanent: true
+  - source: "/getting-started/payment-integration/welcome-intro-shopify"
+    destination: "/getting-started/payment-integration/intro-to-truemed-on-shopify"
+    permanent: true
+  - source: "/getting-started/payment-integration/welcome-intro-woocommerce"
+    destination: "/getting-started/payment-integration/intro-to-truemed-on-woo-commerce"
+    permanent: true
+  - source: "/getting-started/stripe-setup/stripe-onboarding-and-connection"
+    destination: "/getting-started/stripe-setup/stripe-onboarding-connection"
+    permanent: true
   - source: "/"
     destination: "/"
     permanent: true
