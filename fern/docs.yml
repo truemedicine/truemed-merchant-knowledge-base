@@ -337,7 +337,7 @@ navigation:
         slug: sb-q4-optimization-checklist
         path: ./pages/hidden/service-business/sb-q4-optimization-checklist.mdx
 navbar-links:
-  - type: minimal
+  - type: filled
     text: Developer Docs
     href: https://developers.truemed.com/welcome
     target: _blank
