@@ -806,7 +806,7 @@ redirects:
     destination: "/implementation/shopify/setup-guide"
     permanent: true
   - source: "/en/articles/collection/552769/1078209"
-    destination: "/implementation/website-readiness/website-readiness"
+    destination: "/website-readiness"
     permanent: true
   - source: "/en/articles/collection/552769/571137"
     destination: "/resources/product-page-widget"
@@ -815,5 +815,35 @@ redirects:
     destination: "/account-management/staff-resources-training/how-truemed-works-team-overview"
     permanent: true
   - source: "/en/articles/collection/898177"
+    destination: "/service-business/welcome-to-truemed-how-it-works"
+    permanent: true
+  - source: "/collection/1065217"
+    destination: "/account-management/staff-resources-training/how-truemed-works-team-overview"
+    permanent: true
+  - source: "/collection/1065409"
+    destination: "/partnering-with-truemed/how-truemed-works"
+    permanent: true
+  - source: "/collection/1065409/1065601"
+    destination: "/implementation/shopify/setup-guide"
+    permanent: true
+  - source: "/collection/1065409/564609"
+    destination: "/getting-started/stripe-setup/stripe-onboarding-connection"
+    permanent: true
+  - source: "/collection/1065409/598785"
+    destination: "/getting-started/payment-integration/intro-to-truemed-on-shopify"
+    permanent: true
+  - source: "/collection/552769"
+    destination: "/implementation/shopify/setup-guide"
+    permanent: true
+  - source: "/collection/552769/1078209"
+    destination: "/website-readiness"
+    permanent: true
+  - source: "/collection/552769/571137"
+    destination: "/resources/product-page-widget"
+    permanent: true
+  - source: "/collection/555073"
+    destination: "/account-management/staff-resources-training/how-truemed-works-team-overview"
+    permanent: true
+  - source: "/collection/898177"
     destination: "/service-business/welcome-to-truemed-how-it-works"
     permanent: true
