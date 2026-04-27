@@ -794,13 +794,13 @@ redirects:
     destination: "/getting-started/welcome-to-truemed"
     permanent: true
   - source: "/en/articles/collection/1065409/1065601"
-    destination: "/implementation/shopify/setup-guide"
+    destination: "/merchant-hub"
     permanent: true
   - source: "/en/articles/collection/1065409/564609"
     destination: "/getting-started/stripe-setup/stripe-onboarding-connection"
     permanent: true
   - source: "/en/articles/collection/1065409/598785"
-    destination: "/getting-started/payment-integration/intro-to-truemed-on-shopify"
+    destination: "/merchant-hub"
     permanent: true
   - source: "/en/articles/collection/552769"
     destination: "/website-readiness"
@@ -809,7 +809,7 @@ redirects:
     destination: "/website-readiness"
     permanent: true
   - source: "/en/articles/collection/552769/571137"
-    destination: "/resources/product-page-widget"
+    destination: "/website-readiness"
     permanent: true
   - source: "/en/articles/collection/555073"
     destination: "/account-management/staff-resources-training/how-truemed-works-team-overview"
@@ -824,13 +824,13 @@ redirects:
     destination: "/getting-started/welcome-to-truemed"
     permanent: true
   - source: "/collection/1065409/1065601"
-    destination: "/implementation/shopify/setup-guide"
+    destination: "/merchant-hub"
     permanent: true
   - source: "/collection/1065409/564609"
     destination: "/getting-started/stripe-setup/stripe-onboarding-connection"
     permanent: true
   - source: "/collection/1065409/598785"
-    destination: "/getting-started/payment-integration/intro-to-truemed-on-shopify"
+    destination: "/merchant-hub"
     permanent: true
   - source: "/collection/552769"
     destination: "/website-readiness"
@@ -839,7 +839,7 @@ redirects:
     destination: "/website-readiness"
     permanent: true
   - source: "/collection/552769/571137"
-    destination: "/resources/product-page-widget"
+    destination: "/website-readiness"
     permanent: true
   - source: "/collection/555073"
     destination: "/account-management/staff-resources-training/how-truemed-works-team-overview"
