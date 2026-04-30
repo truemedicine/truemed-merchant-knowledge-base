@@ -1,0 +1,106 @@
+---
+title: SKUs
+description: Upload, manage, and review HSA/FSA eligibility for your products in the Truemed Dashboard.
+---
+
+The **Products** tab in your Truemed Dashboard is where you upload your product catalog, view eligibility status for each item, and keep your SKU list current. Truemed uses your SKU as the primary identifier to verify eligibility at checkout, so keeping this list up to date is the single most important thing you can do to make sure customers see accurate eligibility on your store.
+
+<Note>
+SKU management in the Truemed Dashboard is available for **Shopify** and **API** integrations.
+</Note>
+
+***
+
+## Why SKU Uploads Matter
+
+When a customer attempts to check out with a product that hasn't been categorized, it defaults to **ineligible** until our compliance team has had a chance to review it. Keeping your product list current ensures that customers don't run into a frustrating experience where a product that may qualify for HSA/FSA doesn't show that option at checkout.
+
+***
+
+## When to Upload Your SKUs
+
+Upload your product list:
+
+- On a regular cadence (monthly or quarterly)
+- Any time you launch new products
+- If a customer reports a product showing as ineligible at checkout
+
+***
+
+## Preparing Your Product List
+
+### Shopify Merchants
+
+1. Log in to your Shopify dashboard
+2. Click the **Products** tab
+3. In the upper right, click **Export**
+4. Select **All Products** and **Plain CSV File**
+5. Click **Export Products**
+
+<Warning>
+Make sure all product variants have a **Variant SKU** assigned before exporting. Items missing a SKU will be skipped on upload.
+</Warning>
+
+### Non-Shopify Merchants
+
+Export your product catalog in CSV format with the following fields:
+
+| Column           | Required | Description                                       |
+| ---------------- | -------- | ------------------------------------------------- |
+| **Title**        | Yes      | Product name                                      |
+| **Handle**       | Yes      | URL-friendly identifier (can match Title)         |
+| **Variant SKU**  | Yes      | Unique SKU for each product variant               |
+| **Description**  | Yes      | Product description                               |
+
+***
+
+## Uploading to the Truemed Dashboard
+
+1. Go to [app.truemed.com](https://app.truemed.com) and log in
+2. Click the **Products** tab in the navigation
+3. Click **Upload CSV** to upload your file, or use **Add Product** to add SKUs individually
+4. Each product appears in your SKU table with a status label
+
+![Truemed Dashboard Products tab with SKU upload](./images/skus-products-tab.png)
+
+<Note>
+Both **Owners** and **Staff** can upload, view, and download SKU data.
+</Note>
+
+***
+
+## SKU Eligibility Statuses
+
+Once uploaded, each product is assigned one of the following statuses:
+
+| Status                       | What it means                                                          |
+| ---------------------------- | ---------------------------------------------------------------------- |
+| **Awaiting Review**          | Submitted and pending review by the Truemed compliance team            |
+| **Approved (requires LMN)**  | May be HSA/FSA eligible with a Letter of Medical Necessity             |
+| **Pre-approved**             | Eligible without an LMN, no clinical intake form needed                |
+| **Partial Eligibility**      | Only part of the item qualifies; details are specified in the LMN      |
+| **Ineligible**               | Not approved for HSA/FSA spending                                      |
+
+***
+
+## FAQs
+
+**Can I upload my products in a different format?**
+Please follow the CSV instructions above. We rely on a consistent format to accurately categorize your products.
+
+**Why do I need to send my full product list?**
+Our compliance team needs your full catalog to categorize eligible and ineligible items, including branded merchandise.
+
+**Why is my new product showing as ineligible at checkout?**
+Any new product must be reviewed by Truemed's compliance team before it can be marked eligible. Until then, it defaults to ineligible.
+
+**Can I manually tag products as HSA/FSA eligible in Shopify?**
+No. Eligibility must be verified and assigned by Truemed's compliance team.
+
+***
+
+## Need Help?
+
+- Upload issues: email your CSV and business name to [merchants@truemed.com](mailto:merchants@truemed.com)
+- Eligibility questions: [merchants@truemed.com](mailto:merchants@truemed.com)
+- Truemed Dashboard: [app.truemed.com](https://app.truemed.com)
