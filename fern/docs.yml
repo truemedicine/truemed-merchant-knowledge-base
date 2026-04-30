@@ -2,6 +2,9 @@ instances:
   - url: truemed-merchants.docs.buildwithfern.com
     custom-domain: support.truemed.com
 title: Truemed Merchant Help Center
+layout:
+  tabs-placement: header
+  searchbar-placement: header
 tabs:
   hub:
     display-name: Merchant Hub
