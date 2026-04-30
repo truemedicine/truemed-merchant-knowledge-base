@@ -8,15 +8,12 @@ layout:
 tabs:
   hub:
     display-name: Merchant Hub
-    icon: regular store
   guides:
     display-name: Developer Guides
-    icon: regular terminal
     href: https://developers.truemed.com/welcome
     target: _blank
   api:
     display-name: API Reference
-    icon: regular code
     href: https://developers.truemed.com/api-reference
     target: _blank
 navigation:
