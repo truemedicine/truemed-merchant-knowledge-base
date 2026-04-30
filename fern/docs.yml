@@ -9,6 +9,9 @@ tabs:
   hub:
     display-name: Merchant Hub
     skip-slug: true
+  marketing:
+    display-name: Marketing
+    href: /website-readiness
   guides:
     display-name: Developer Guides
     href: https://developers.truemed.com/welcome
@@ -369,6 +372,7 @@ navigation:
           - page: Q4 Optimization Checklist
             slug: sb-q4-optimization-checklist
             path: ./pages/hidden/service-business/sb-q4-optimization-checklist.mdx
+  - tab: marketing
   - tab: guides
   - tab: api
 navbar-links:
