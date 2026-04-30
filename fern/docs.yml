@@ -8,6 +8,7 @@ layout:
 tabs:
   hub:
     display-name: Merchant Hub
+    skip-slug: true
   guides:
     display-name: Developer Guides
     href: https://developers.truemed.com/welcome
