@@ -26,6 +26,12 @@ navigation:
             path: ./pages/getting-started/payment-integration/welcome-intro-shopify.mdx
           - page: Intro to Truemed on WooCommerce
             path: ./pages/getting-started/payment-integration/welcome-intro-woocommerce.mdx
+          - page: "Customer Journey: Payments"
+            path: ./pages/getting-started/payment-integration/customer-journey-payments.mdx
+            hidden: true
+          - page: "Customer Journey: Pre-Approved Products"
+            path: ./pages/getting-started/payment-integration/customer-journey-pre-approved.mdx
+            hidden: true
       - section: Stripe Setup
         contents:
           - page: Stripe Onboarding & Connection
@@ -50,6 +56,13 @@ navigation:
             path: ./pages/implementation/website-readiness/consideration.mdx
           - page: Conversion
             path: ./pages/implementation/website-readiness/conversion.mdx
+  - section: Truemed Dashboard
+    hidden: true
+    contents:
+      - page: SKUs
+        path: ./pages/dashboard/skus.mdx
+      - page: Qualifications
+        path: ./pages/dashboard/qualifications.mdx
   - section: Troubleshooting
     contents:
       - page: Shopify Issues
@@ -58,6 +71,9 @@ navigation:
         path: ./pages/troubleshooting/sku-upload.mdx
   - section: Account Management
     contents:
+      - page: Account Settings
+        path: ./pages/account-management/account-settings.mdx
+        hidden: true
       - section: Staff Resources & Training
         contents:
           - page: How Truemed Works (Team Overview)

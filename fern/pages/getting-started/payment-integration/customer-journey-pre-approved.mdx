@@ -1,0 +1,93 @@
+---
+title: "Customer Journey: Pre-Approved Products"
+description: How customers pay for pre-approved HSA/FSA products at checkout, with no health survey or Letter of Medical Necessity required.
+---
+
+Truemed allows customers to pay for pre-approved HSA/FSA products directly with their HSA/FSA card at checkout. Because the product category is pre-approved, no clinical intake form or Letter of Medical Necessity (LMN) is required. Customers complete their purchase using pre-tax HSA or FSA funds with no reimbursement filing needed.
+
+<Tip>
+Watch the [pre-approved customer journey video](https://app.trupeer.ai/view/tFDpSMFSQ/pre-approved-customer-journey) for a guided overview of the experience.
+</Tip>
+
+***
+
+## What "Pre-Approved" Means
+
+A product is pre-approved when its category already meets established regulatory standards for medical care, meaning customers can pay with their HSA or FSA card directly without additional clinical review.
+
+### Core Criteria for Pre-Approval
+
+1. **Recognized eligible category (SIGIS / IRS-aligned).** Categories explicitly listed under SIGIS "Eligible: Devices & Supplies" qualify automatically. These are items with clear medical intent and established reimbursement precedent: diagnostic devices like thermometers and glucose monitors, durable medical equipment like crutches and wheelchairs, and condition-specific supplies like compression hosiery and breast pumps. Reference: [SIGIS Eligible Product List Criteria](https://sig-is.org/eligible-product-list/eligible-product-list-criteria).
+2. **Meets IRS Section 213(d).** The product is used for diagnosis, cure, mitigation, treatment, or prevention of disease, or affects a structure or function of the body. Not for general health or wellness.
+3. **Primary purpose is medical, not dual-purpose.** The product has a clear, singular medical use and would not be purchased for any other reason.
+4. **Strong regulatory and TPA precedent.** Third Party Administrators consistently approve the category without additional documentation, and claim-denial risk is low.
+5. **Fits cleanly into Truemed's eligibility framework.** Maps directly to an existing eligibility category with no clinical interpretation needed.
+
+### What Disqualifies a Product From Pre-Approval
+
+- General wellness items (vitamins, gym memberships, healthy food)
+- Dual-purpose items (ergonomic chairs, mattresses, fitness equipment)
+- Products that require personalization to a specific condition
+- Products lacking clear IRS precedent
+- Products that need clinical judgment to justify use
+
+<Note>
+**Pre-approved** = obviously medical, zero ambiguity, widely accepted by TPAs.
+
+**LMN required** = could be medical, but depends on the person, condition, or use case.
+</Note>
+
+***
+
+## Pre-Approved vs. LMN Flow: Key Differences
+
+|                              | Pre-Approved Flow         | LMN (Dual-Purpose) Flow    |
+| ---------------------------- | ------------------------- | -------------------------- |
+| Clinical intake form         | Skipped                   | Required (60 to 90 sec)    |
+| LMN issued                   | No                        | Yes                        |
+| Practitioner review          | No                        | Within 24 to 48 hours      |
+| Payment capture timing       | Immediate                 | After practitioner approval |
+| Customer saves for audit     | Receipt (3 years)         | LMN + Receipt (3 years)    |
+| HSA/FSA card at checkout     | Yes                       | Yes (after intake form)    |
+
+***
+
+## Customer Journey
+
+The journey for pre-approved products is shorter than the standard LMN flow because there is no clinical review step.
+
+1. Customer sees HSA/FSA eligibility signaled on the product page
+2. Customer adds items to cart and sees eligibility reinforcement
+3. At checkout, customer selects **Truemed** as the payment method
+4. The clinical intake form is skipped, and the customer enters their HSA/FSA card directly
+5. Payment captures immediately
+6. Customer receives a receipt and order confirmation (no LMN)
+7. Customer saves the receipt for **3 years** in case of an IRS audit
+
+![Pre-approved customer journey at checkout](./images/customer-journey-pre-approved-flow.png)
+
+***
+
+## Edge Cases
+
+### What if the HSA/FSA card is declined?
+
+For pre-approved products there is no clinical approval step, so the only failure scenario is a card issue (insufficient balance, TPA restrictions, card not activated for medical purchases). Troubleshoot as usual:
+
+- Check the card's restrictions and TPA rules
+- The customer can pay with a regular credit or debit card and submit the receipt for reimbursement through their HSA/FSA administrator
+
+### What if the cart contains both pre-approved and LMN-required items?
+
+If a customer adds both pre-approved and dual-purpose items to the same cart:
+
+- The dual-purpose items trigger the standard LMN intake flow
+- The pre-approved items do not generate an LMN independently
+- The order processes based on each product's status
+
+***
+
+## Need Help?
+
+- Customer support (your customers' questions): [support@truemed.com](mailto:support@truemed.com)
+- Merchant support: [merchants@truemed.com](mailto:merchants@truemed.com)
