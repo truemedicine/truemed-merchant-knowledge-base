@@ -401,9 +401,6 @@ redirects:
   - source: "/implementation/website-readiness/website-readiness"
     destination: "/website-readiness"
     permanent: true
-  - source: "/"
-    destination: "/"
-    permanent: true
   - source: "/en/articles/2439489"
     destination: "/account-management/staff-resources-training/how-truemed-works-team-overview"
     permanent: true
