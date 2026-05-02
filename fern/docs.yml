@@ -883,3 +883,6 @@ redirects:
   - source: "/collection/898177"
     destination: "/service-business/welcome-to-truemed-how-it-works"
     permanent: true
+  - source: "/en/resources/truemed-launch-toolkit"
+    destination: "/resources/truemed-launch-toolkit"
+    permanent: true
