@@ -884,5 +884,5 @@ redirects:
     destination: "/service-business/welcome-to-truemed-how-it-works"
     permanent: true
   - source: "/en/resources/truemed-launch-toolkit"
-    destination: "/resources/truemed-launch-toolkit"
+    destination: "https://support.truemed.com/resources/truemed-launch-toolkit"
     permanent: true
