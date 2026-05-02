@@ -106,6 +106,12 @@ navigation:
                 path: ./pages/staff-training/refunds-returns-disputes.mdx
               - page: When to Escalate to Truemed
                 path: ./pages/staff-training/when-to-escalate-to-truemed.mdx
+      - section: Resources EN
+        hidden: true
+        slug: en/resources
+        contents:
+          - page: Truemed Launch Toolkit
+            path: ./pages/hidden/truemed-launch-toolkit.mdx
       - section: Resources
         hidden: true
         slug: resources
