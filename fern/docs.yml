@@ -52,6 +52,8 @@ navigation:
               - page: "Customer Journey: Pre-Approved Products"
                 path: ./pages/getting-started/payment-integration/customer-journey-pre-approved.mdx
                 hidden: true
+              - page: "Customer Journey: Reimbursements"
+                path: ./pages/getting-started/payment-integration/customer-journey-reimbursements.mdx
           - section: Stripe Setup
             contents:
               - page: Stripe Onboarding & Connection
