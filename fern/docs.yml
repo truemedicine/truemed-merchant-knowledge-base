@@ -397,7 +397,7 @@ colors:
     light: "#06576F"
 redirects:
   - source: "/en/articles/2575105"
-    destination: "https://support.truemed.com/troubleshooting/sku-upload"
+    destination: "/troubleshooting/sku-upload"
     permanent: true
   - source: "/getting-started/payment-integration/welcome-intro-shopify"
     destination: "/getting-started/payment-integration/intro-to-truemed-on-shopify"
