@@ -1,0 +1,68 @@
+---
+title: Stripe Issues
+description: Common questions about setting up a Truemed account, receiving payouts, and managing account details over time.
+---
+
+This article answers the most common questions merchants have about setting up a Truemed account, receiving payouts, and managing account details over time. If you're partway through onboarding or need to make a change to an existing account, start here.
+
+***
+
+## Account Setup
+
+### Can I set up a Truemed account if I'm based outside the US?
+
+Truemed requires a US EIN and a US bank account to open the underlying Stripe account. If you don't have these, some international merchants have used services like [doola](https://www.doola.com/) to establish the necessary US business presence quickly.
+
+### Do you support payment processors other than Stripe?
+
+No. Stripe is the only processor Truemed supports today.
+
+### Why do I have to connect a bank account during onboarding?
+
+Truemed acts as the payment processor for HSA/FSA transactions, which means we collect funds on your behalf and remit them to you on a regular payout schedule. The bank connection is handled securely through Stripe during onboarding and is required before your first transaction.
+
+### Why does Stripe require personal information like an SSN if I'm signing up under a business?
+
+Even when an account is registered to a business EIN, Stripe is required to verify the identity of the individual acting on behalf of that business. This is part of Stripe's [Know Your Customer (KYC) obligations](https://support.stripe.com/questions/know-your-customer-obligations).
+
+During onboarding, Stripe will ask for:
+
+- The last four digits of the account holder's SSN
+- A government-issued ID (for example, a driver's license)
+
+A full SSN is only required after $750,000 has been processed through the account.
+
+### Why does someone with 25% or more ownership need to be listed on the account?
+
+This is a Stripe requirement that applies when the business is registered as a Private Corporation. If your business structure was selected incorrectly during onboarding, contact Truemed and we'll help you get it corrected.
+
+### How should I classify our industry during Stripe onboarding?
+
+Choose the category that most accurately represents your business (for example, "Supplements"). Stripe's risk flags most often surface when businesses sell CBD or similarly restricted items, so the most successful onboarding experiences happen when merchants answer Stripe's questions honestly and straightforwardly.
+
+***
+
+## Payouts and Account Management
+
+### When do I receive payout for HSA/FSA orders?
+
+Funds settle through Stripe to the bank account you connected during onboarding. Payouts run on a rolling 48-hour schedule, similar to standard Shopify payouts.
+
+### How do I update the bank account linked to my Truemed account?
+
+1. Log into your [Truemed-specific Stripe account](https://connect.stripe.com/express_login)
+2. Click the profile icon in the upper right
+3. Select **Payout Details**
+4. Use the edit icon to update your bank information
+
+For step-by-step instructions, see the article on Updating Your Linked Bank Account.
+
+### What if the account owner has left the company?
+
+Truemed cannot change the account owner on your behalf. The new owner needs to contact Stripe directly using Stripe's [Change the Owner of a Stripe Account](https://support.stripe.com/questions/change-the-owner-of-a-stripe-account) process.
+
+***
+
+## Need Help?
+
+For any questions about your account that aren't covered here, contact [merchants@truemed.com](mailto:merchants@truemed.com).

@@ -64,10 +64,28 @@ navigation:
             contents:
               - page: Setup Guide
                 path: ./pages/implementation/shopify/setup-guide.mdx
+          - section: WooCommerce
+            hidden: true
+            contents:
+              - page: Setup Guide
+                path: ./pages/implementation/woocommerce/setup-guide.mdx
+          - section: BigCommerce
+            hidden: true
+            contents:
+              - page: Setup Guide
+                path: ./pages/implementation/big-commerce/setup-guide.mdx
+          - section: API
+            hidden: true
+            contents:
+              - page: Setup Guide
+                path: ./pages/implementation/api/setup-guide.mdx
           - section: Reimbursements
             contents:
               - page: Setup Guide
                 path: ./pages/implementation/reimbursements/setup-guide.mdx
+              - page: In-Store (IRL) Reimbursements
+                path: ./pages/implementation/reimbursements/in-store-reimbursements.mdx
+                hidden: true
           - section: Website Readiness
             contents:
               - page: Website Readiness
@@ -91,6 +109,18 @@ navigation:
             path: ./pages/troubleshooting/shopify-issues.mdx
           - page: SKU Upload
             path: ./pages/troubleshooting/sku-upload.mdx
+          - page: Stripe Issues
+            path: ./pages/troubleshooting/stripe-issues.mdx
+            hidden: true
+          - page: Fraud Protection
+            path: ./pages/troubleshooting/fraud-protection.mdx
+            hidden: true
+          - page: Disputes & Chargebacks
+            path: ./pages/troubleshooting/disputes-and-chargebacks.mdx
+            hidden: true
+          - page: Refund Issues
+            path: ./pages/troubleshooting/refund-issues.mdx
+            hidden: true
       - section: Account Management
         contents:
           - page: Account Settings
