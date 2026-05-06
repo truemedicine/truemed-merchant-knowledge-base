@@ -54,7 +54,8 @@ navigation:
             contents:
               - page: Stripe Onboarding & Connection
                 path: ./pages/getting-started/stripe-setup/stripe-onboarding-and-connection.mdx
-      - section: Platform
+      - section: Set Up Truemed
+        slug: setup
         contents:
           - section: Shopify
             contents:
@@ -76,7 +77,7 @@ navigation:
             contents:
               - page: Setup Guide
                 path: ./pages/implementation/api/setup-guide.mdx
-          - section: Reimbursements
+          - section: Post-Purchase Reimbursements
             contents:
               - page: Setup Guide
                 path: ./pages/implementation/reimbursements/setup-guide.mdx
@@ -432,30 +433,55 @@ redirects:
   - source: "/getting-started/payment-integration/customer-journey-pre-approved-products"
     destination: "/getting-started/customer-experience/customer-journey-pre-approved-products"
     permanent: true
-  # 2026-05 nav restructure: Platform top-level (replaces Implementation for platform-specific pages)
+  # 2026-05 nav restructure: Set Up Truemed top-level (slug /setup/, replaces Implementation for platform-specific pages)
   - source: "/getting-started/payment-integration/intro-to-truemed-on-shopify"
-    destination: "/platform/shopify/intro-to-truemed-on-shopify"
+    destination: "/setup/shopify/intro-to-truemed-on-shopify"
     permanent: true
   - source: "/getting-started/payment-integration/intro-to-truemed-on-woo-commerce"
-    destination: "/platform/woo-commerce/intro-to-truemed-on-woo-commerce"
+    destination: "/setup/woo-commerce/intro-to-truemed-on-woo-commerce"
     permanent: true
   - source: "/implementation/shopify/setup-guide"
-    destination: "/platform/shopify/setup-guide"
+    destination: "/setup/shopify/setup-guide"
     permanent: true
   - source: "/implementation/woo-commerce/setup-guide"
-    destination: "/platform/woo-commerce/setup-guide"
+    destination: "/setup/woo-commerce/setup-guide"
     permanent: true
   - source: "/implementation/big-commerce/setup-guide"
-    destination: "/platform/big-commerce/setup-guide"
+    destination: "/setup/big-commerce/setup-guide"
     permanent: true
   - source: "/implementation/api/setup-guide"
-    destination: "/platform/api/setup-guide"
+    destination: "/setup/api/setup-guide"
     permanent: true
   - source: "/implementation/reimbursements/setup-guide"
-    destination: "/platform/reimbursements/setup-guide"
+    destination: "/setup/post-purchase-reimbursements/setup-guide"
     permanent: true
   - source: "/implementation/reimbursements/in-store-irl-reimbursements"
-    destination: "/platform/reimbursements/in-store-irl-reimbursements"
+    destination: "/setup/post-purchase-reimbursements/in-store-irl-reimbursements"
+    permanent: true
+  # 2026-05 follow-up: Platform → Set Up Truemed, Reimbursements → Post-Purchase Reimbursements
+  - source: "/platform/shopify/intro-to-truemed-on-shopify"
+    destination: "/setup/shopify/intro-to-truemed-on-shopify"
+    permanent: true
+  - source: "/platform/shopify/setup-guide"
+    destination: "/setup/shopify/setup-guide"
+    permanent: true
+  - source: "/platform/woo-commerce/intro-to-truemed-on-woo-commerce"
+    destination: "/setup/woo-commerce/intro-to-truemed-on-woo-commerce"
+    permanent: true
+  - source: "/platform/woo-commerce/setup-guide"
+    destination: "/setup/woo-commerce/setup-guide"
+    permanent: true
+  - source: "/platform/big-commerce/setup-guide"
+    destination: "/setup/big-commerce/setup-guide"
+    permanent: true
+  - source: "/platform/api/setup-guide"
+    destination: "/setup/api/setup-guide"
+    permanent: true
+  - source: "/platform/reimbursements/setup-guide"
+    destination: "/setup/post-purchase-reimbursements/setup-guide"
+    permanent: true
+  - source: "/platform/reimbursements/in-store-irl-reimbursements"
+    destination: "/setup/post-purchase-reimbursements/in-store-irl-reimbursements"
     permanent: true
   # 2026-05 nav restructure: Account Settings → Truemed Dashboard
   - source: "/account-management/account-settings"
@@ -503,10 +529,10 @@ redirects:
     destination: "/troubleshooting/account-setup/sku-upload"
     permanent: true
   - source: "/getting-started/payment-integration/welcome-intro-shopify"
-    destination: "/platform/shopify/intro-to-truemed-on-shopify"
+    destination: "/setup/shopify/intro-to-truemed-on-shopify"
     permanent: true
   - source: "/getting-started/payment-integration/welcome-intro-woocommerce"
-    destination: "/platform/woo-commerce/intro-to-truemed-on-woo-commerce"
+    destination: "/setup/woo-commerce/intro-to-truemed-on-woo-commerce"
     permanent: true
   - source: "/getting-started/stripe-setup/stripe-onboarding-and-connection"
     destination: "/getting-started/stripe-setup/stripe-onboarding-connection"
