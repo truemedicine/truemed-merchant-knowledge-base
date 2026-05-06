@@ -104,15 +104,15 @@ navigation:
         contents:
           - section: Account & Setup
             contents:
-              - page: Stripe Issues
+              - page: Stripe & Payouts
                 path: ./pages/troubleshooting/stripe-issues.mdx
-              - page: Shopify Issues
+              - page: Shopify Troubleshooting
                 path: ./pages/troubleshooting/shopify-issues.mdx
               - page: SKU Upload
                 path: ./pages/troubleshooting/sku-upload.mdx
-              - page: Refund Issues
+              - page: How Refunds Work
                 path: ./pages/troubleshooting/refund-issues.mdx
-          - section: How Truemed Handles It
+          - section: Fraud & Disputes
             contents:
               - page: Fraud Protection
                 path: ./pages/troubleshooting/fraud-protection.mdx
@@ -474,12 +474,27 @@ redirects:
   - source: "/account-management/staff-resources-training/when-to-escalate-to-truemed"
     destination: "/staff-training/when-to-escalate-to-truemed"
     permanent: true
-  # 2026-05 nav restructure: Troubleshooting split into Account & Setup + How Truemed Handles It
+  # 2026-05 nav restructure: Troubleshooting split into Account & Setup + Fraud & Disputes
   - source: "/troubleshooting/shopify-issues"
-    destination: "/troubleshooting/account-setup/shopify-issues"
+    destination: "/troubleshooting/account-setup/shopify-troubleshooting"
     permanent: true
   - source: "/troubleshooting/sku-upload"
     destination: "/troubleshooting/account-setup/sku-upload"
+    permanent: true
+  - source: "/troubleshooting/account-setup/shopify-issues"
+    destination: "/troubleshooting/account-setup/shopify-troubleshooting"
+    permanent: true
+  - source: "/troubleshooting/account-setup/stripe-issues"
+    destination: "/troubleshooting/account-setup/stripe-payouts"
+    permanent: true
+  - source: "/troubleshooting/account-setup/refund-issues"
+    destination: "/troubleshooting/account-setup/how-refunds-work"
+    permanent: true
+  - source: "/troubleshooting/how-truemed-handles-it/fraud-protection"
+    destination: "/troubleshooting/fraud-disputes/fraud-protection"
+    permanent: true
+  - source: "/troubleshooting/how-truemed-handles-it/disputes-chargebacks"
+    destination: "/troubleshooting/fraud-disputes/disputes-chargebacks"
     permanent: true
   - source: "/en/articles/2575105"
     destination: "/troubleshooting/account-setup/sku-upload"
