@@ -40,42 +40,37 @@ navigation:
         contents:
           - page: Welcome to Truemed
             path: ./pages/getting-started/welcome-to-truemed.mdx
-          - section: Payment Integration
+          - section: Customer Experience
             contents:
-              - page: Intro to Truemed on Shopify
-                path: ./pages/getting-started/payment-integration/welcome-intro-shopify.mdx
-              - page: Intro to Truemed on WooCommerce
-                path: ./pages/getting-started/payment-integration/welcome-intro-woocommerce.mdx
               - page: "Customer Journey: Payments"
                 path: ./pages/getting-started/payment-integration/customer-journey-payments.mdx
-                hidden: true
               - page: "Customer Journey: Pre-Approved Products"
                 path: ./pages/getting-started/payment-integration/customer-journey-pre-approved.mdx
-                hidden: true
               - page: "Customer Journey: Reimbursements"
                 path: ./pages/getting-started/payment-integration/customer-journey-reimbursements.mdx
           - section: Stripe Setup
             contents:
               - page: Stripe Onboarding & Connection
                 path: ./pages/getting-started/stripe-setup/stripe-onboarding-and-connection.mdx
-      - section: Implementation
+      - section: Platform
         contents:
           - section: Shopify
             contents:
+              - page: Intro to Truemed on Shopify
+                path: ./pages/getting-started/payment-integration/welcome-intro-shopify.mdx
               - page: Setup Guide
                 path: ./pages/implementation/shopify/setup-guide.mdx
           - section: WooCommerce
-            hidden: true
             contents:
+              - page: Intro to Truemed on WooCommerce
+                path: ./pages/getting-started/payment-integration/welcome-intro-woocommerce.mdx
               - page: Setup Guide
                 path: ./pages/implementation/woocommerce/setup-guide.mdx
           - section: BigCommerce
-            hidden: true
             contents:
               - page: Setup Guide
                 path: ./pages/implementation/big-commerce/setup-guide.mdx
           - section: API
-            hidden: true
             contents:
               - page: Setup Guide
                 path: ./pages/implementation/api/setup-guide.mdx
@@ -85,7 +80,8 @@ navigation:
                 path: ./pages/implementation/reimbursements/setup-guide.mdx
               - page: In-Store (IRL) Reimbursements
                 path: ./pages/implementation/reimbursements/in-store-reimbursements.mdx
-                hidden: true
+      - section: Implementation
+        contents:
           - section: Website Readiness
             contents:
               - page: Website Readiness
@@ -97,47 +93,44 @@ navigation:
               - page: Conversion
                 path: ./pages/implementation/website-readiness/conversion.mdx
       - section: Truemed Dashboard
-        hidden: true
         contents:
           - page: SKUs
             path: ./pages/dashboard/skus.mdx
           - page: Qualifications
             path: ./pages/dashboard/qualifications.mdx
-      - section: Troubleshooting
-        contents:
-          - page: Shopify Issues
-            path: ./pages/troubleshooting/shopify-issues.mdx
-          - page: SKU Upload
-            path: ./pages/troubleshooting/sku-upload.mdx
-          - page: Stripe Issues
-            path: ./pages/troubleshooting/stripe-issues.mdx
-            hidden: true
-          - page: Fraud Protection
-            path: ./pages/troubleshooting/fraud-protection.mdx
-            hidden: true
-          - page: Disputes & Chargebacks
-            path: ./pages/troubleshooting/disputes-and-chargebacks.mdx
-            hidden: true
-          - page: Refund Issues
-            path: ./pages/troubleshooting/refund-issues.mdx
-            hidden: true
-      - section: Account Management
-        contents:
           - page: Account Settings
             path: ./pages/account-management/account-settings.mdx
-            hidden: true
-          - section: Staff Resources & Training
+      - section: Troubleshooting
+        contents:
+          - section: Account & Setup
             contents:
-              - page: How Truemed Works (Team Overview)
-                path: ./pages/staff-training/how-truemed-works-team-overview.mdx
-              - page: The Customer Checkout Experience
-                path: ./pages/staff-training/customer-checkout-experience.mdx
-              - page: Common Customer Questions
-                path: ./pages/staff-training/common-customer-questions.mdx
-              - page: Refunds, Returns & Disputes
-                path: ./pages/staff-training/refunds-returns-disputes.mdx
-              - page: When to Escalate to Truemed
-                path: ./pages/staff-training/when-to-escalate-to-truemed.mdx
+              - page: Stripe Issues
+                path: ./pages/troubleshooting/stripe-issues.mdx
+              - page: Shopify Issues
+                path: ./pages/troubleshooting/shopify-issues.mdx
+              - page: SKU Upload
+                path: ./pages/troubleshooting/sku-upload.mdx
+              - page: Refund Issues
+                path: ./pages/troubleshooting/refund-issues.mdx
+          - section: How Truemed Handles It
+            contents:
+              - page: Fraud Protection
+                path: ./pages/troubleshooting/fraud-protection.mdx
+              - page: Disputes & Chargebacks
+                path: ./pages/troubleshooting/disputes-and-chargebacks.mdx
+      - section: Staff Training & FAQs
+        slug: staff-training
+        contents:
+          - page: How Truemed Works (Team Overview)
+            path: ./pages/staff-training/how-truemed-works-team-overview.mdx
+          - page: The Customer Checkout Experience
+            path: ./pages/staff-training/customer-checkout-experience.mdx
+          - page: Common Customer Questions
+            path: ./pages/staff-training/common-customer-questions.mdx
+          - page: Refunds, Returns & Disputes
+            path: ./pages/staff-training/refunds-returns-disputes.mdx
+          - page: When to Escalate to Truemed
+            path: ./pages/staff-training/when-to-escalate-to-truemed.mdx
       - section: Resources EN
         hidden: true
         slug: en/resources
@@ -426,14 +419,76 @@ colors:
   accent-primary:
     light: "#06576F"
 redirects:
+  # 2026-05 nav restructure: Customer Journey articles moved to Customer Experience sub
+  - source: "/getting-started/payment-integration/customer-journey-reimbursements"
+    destination: "/getting-started/customer-experience/customer-journey-reimbursements"
+    permanent: true
+  - source: "/getting-started/payment-integration/customer-journey-payments"
+    destination: "/getting-started/customer-experience/customer-journey-payments"
+    permanent: true
+  - source: "/getting-started/payment-integration/customer-journey-pre-approved-products"
+    destination: "/getting-started/customer-experience/customer-journey-pre-approved-products"
+    permanent: true
+  # 2026-05 nav restructure: Platform top-level (replaces Implementation for platform-specific pages)
+  - source: "/getting-started/payment-integration/intro-to-truemed-on-shopify"
+    destination: "/platform/shopify/intro-to-truemed-on-shopify"
+    permanent: true
+  - source: "/getting-started/payment-integration/intro-to-truemed-on-woo-commerce"
+    destination: "/platform/woo-commerce/intro-to-truemed-on-woo-commerce"
+    permanent: true
+  - source: "/implementation/shopify/setup-guide"
+    destination: "/platform/shopify/setup-guide"
+    permanent: true
+  - source: "/implementation/woo-commerce/setup-guide"
+    destination: "/platform/woo-commerce/setup-guide"
+    permanent: true
+  - source: "/implementation/big-commerce/setup-guide"
+    destination: "/platform/big-commerce/setup-guide"
+    permanent: true
+  - source: "/implementation/api/setup-guide"
+    destination: "/platform/api/setup-guide"
+    permanent: true
+  - source: "/implementation/reimbursements/setup-guide"
+    destination: "/platform/reimbursements/setup-guide"
+    permanent: true
+  - source: "/implementation/reimbursements/in-store-irl-reimbursements"
+    destination: "/platform/reimbursements/in-store-irl-reimbursements"
+    permanent: true
+  # 2026-05 nav restructure: Account Settings → Truemed Dashboard
+  - source: "/account-management/account-settings"
+    destination: "/truemed-dashboard/account-settings"
+    permanent: true
+  # 2026-05 nav restructure: Account Management → Staff Training & FAQs (slug: staff-training)
+  - source: "/account-management/staff-resources-training/how-truemed-works-team-overview"
+    destination: "/staff-training/how-truemed-works-team-overview"
+    permanent: true
+  - source: "/account-management/staff-resources-training/the-customer-checkout-experience"
+    destination: "/staff-training/the-customer-checkout-experience"
+    permanent: true
+  - source: "/account-management/staff-resources-training/common-customer-questions"
+    destination: "/staff-training/common-customer-questions"
+    permanent: true
+  - source: "/account-management/staff-resources-training/refunds-returns-disputes"
+    destination: "/staff-training/refunds-returns-disputes"
+    permanent: true
+  - source: "/account-management/staff-resources-training/when-to-escalate-to-truemed"
+    destination: "/staff-training/when-to-escalate-to-truemed"
+    permanent: true
+  # 2026-05 nav restructure: Troubleshooting split into Account & Setup + How Truemed Handles It
+  - source: "/troubleshooting/shopify-issues"
+    destination: "/troubleshooting/account-setup/shopify-issues"
+    permanent: true
+  - source: "/troubleshooting/sku-upload"
+    destination: "/troubleshooting/account-setup/sku-upload"
+    permanent: true
   - source: "/en/articles/2575105"
-    destination: "/troubleshooting/sku-upload"
+    destination: "/troubleshooting/account-setup/sku-upload"
     permanent: true
   - source: "/getting-started/payment-integration/welcome-intro-shopify"
-    destination: "/getting-started/payment-integration/intro-to-truemed-on-shopify"
+    destination: "/platform/shopify/intro-to-truemed-on-shopify"
     permanent: true
   - source: "/getting-started/payment-integration/welcome-intro-woocommerce"
-    destination: "/getting-started/payment-integration/intro-to-truemed-on-woo-commerce"
+    destination: "/platform/woo-commerce/intro-to-truemed-on-woo-commerce"
     permanent: true
   - source: "/getting-started/stripe-setup/stripe-onboarding-and-connection"
     destination: "/getting-started/stripe-setup/stripe-onboarding-connection"
