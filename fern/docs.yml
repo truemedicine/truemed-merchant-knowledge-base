@@ -413,6 +413,7 @@ navbar-links:
     text: Developer Docs
     href: https://developers.truemed.com/welcome
     target: _blank
+favicon: truemed-favicon.png
 logo:
   dark: truemed-logo-teal.svg
   light: truemed-logo-teal.svg
