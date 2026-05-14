@@ -601,6 +601,9 @@ redirects:
   - source: "/redirect-test-9999"
     destination: "/resources/product-page-widget"
     permanent: true
+  - source: "/en/articles/9999999"
+    destination: "/resources/product-page-widget"
+    permanent: true
   - source: "/en/articles/2465025"
     destination: "/troubleshooting/sku-upload"
     permanent: true
