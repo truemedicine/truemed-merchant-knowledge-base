@@ -595,7 +595,6 @@ redirects:
   - source: "/en/articles/2464257"
     destination: "/resources/product-page-widget"
     permanent: true
-  # Same article as 2464257 — Intercom generated dual IDs for the same Product Page Widget article (one per collection path)
   - source: "/en/articles/2474177"
     destination: "/resources/product-page-widget"
     permanent: true
