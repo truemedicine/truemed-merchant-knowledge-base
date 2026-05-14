@@ -596,7 +596,7 @@ redirects:
     destination: "/resources/product-page-widget"
     permanent: true
   - source: "/en/articles/2474177"
-    destination: "/resources/product-page-widget"
+    destination: "/resources/order-confirmation-widget"
     permanent: true
   - source: "/en/articles/2465025"
     destination: "/troubleshooting/sku-upload"
