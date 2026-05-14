@@ -1024,3 +1024,4 @@ redirects:
   - source: "/en/resources/truemed-launch-toolkit"
     destination: "https://support.truemed.com/resources/truemed-launch-toolkit"
     permanent: true
+
