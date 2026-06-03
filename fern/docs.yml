@@ -697,6 +697,9 @@ redirects:
   - source: "/en/articles/3977985"
     destination: "/service-business/the-customer-journey"
     permanent: true
+  - source: "/en/articles/3978177"
+    destination: "/service-business/welcome-to-truemed-how-it-works"
+    permanent: true
   - source: "/en/articles/3978241"
     destination: "/service-business/manage-your-membership"
     permanent: true
