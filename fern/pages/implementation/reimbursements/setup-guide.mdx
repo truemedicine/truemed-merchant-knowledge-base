@@ -109,7 +109,15 @@ This acts as a backup in case a customer misses the Thank You page. Add the link
 **Example snippet:**
 
 ```html
-<p>This order might be eligible for HSA/FSA reimbursement. <a href="YOUR_QUALIFICATION_LINK?source=email_receipt">Get Reimbursed</a>.</p>
+{% assign skus = "" %}
+{% for line_item in order.line_items %}
+  {% assign skus = skus | append: line_item.sku %}
+  {% unless forloop.last %}
+    {% assign skus = skus | append: "," %}
+  {% endunless %}
+{% endfor %}
+
+<p>This order might be eligible for HSA/FSA reimbursement.<a href="YOUR_LINK?source=receipt_email_1&skus={{ skus | url_encode }}"> Qualify Here</a></p><br>
 ```
 
 ---
