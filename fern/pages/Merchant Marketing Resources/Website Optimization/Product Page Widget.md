@@ -6,7 +6,7 @@ title: "Product Page Widget"---
 
 This widget educates customers about HSA/FSA eligibility, and indicates that they might qualify for HSA/FSA spending or reimbursement with their purchase.
 
-It should be installed on your product pages, typically near the price or "Add to Cart" button
+It should be installed on your product pages, directly below the product price
 
 ![](https://cdn.applied.guide/media/886214b8-01bd-4c9d-8591-1d6ccbcc8c0e/76fa2c84-73b1-4693-802c-357684378195.png)
 
@@ -18,7 +18,7 @@ It should be installed on your product pages, typically near the price or "Add t
 
 2. In Shopify, open the template where you’d like to add the widget. In the left-hand editor, select the section where you want the widget to appear, then click “Add block” to insert it.
 
-![](https://cdn.applied.guide/media/886214b8-01bd-4c9d-8591-1d6ccbcc8c0e/c70d0879-7e09-4bfe-bfa1-b6e303f68507.png)1. Click **“Add block”**, then insert these 2 lines of HTML on your site, typically near the "Buy" or "Add to Cart" buttons (make sure to replace `YOUR_PUBLIC_QUALIFICATION_ID` with the ID found in Step 1):
+![](https://cdn.applied.guide/media/886214b8-01bd-4c9d-8591-1d6ccbcc8c0e/c70d0879-7e09-4bfe-bfa1-b6e303f68507.png)1. Click **“Add block”**, then insert these 2 lines of HTML on your site, directly below the product price (make sure to replace `YOUR_PUBLIC_QUALIFICATION_ID` with the ID found in Step 1):
 
    ```
 

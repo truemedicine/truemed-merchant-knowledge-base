@@ -7,7 +7,7 @@ description: How to install and customize the Truemed HSA/FSA eligibility widget
 
 This widget educates customers about HSA/FSA eligibility and indicates that they might qualify for HSA/FSA spending or reimbursement with their purchase.
 
-It should be installed on your product pages, typically near the price or "Add to Cart" button:
+It should be installed on your product pages, directly below the product price:
 
 ![Widget example showing how it appears on a product page](./images/pdp-widget-example.png)
 
@@ -23,7 +23,7 @@ It should be installed on your product pages, typically near the price or "Add t
 
 ![Shopify theme editor — adding a Custom Liquid block](./images/shopify-add-block.png)
 
-3. Click **"Add block"**, then insert these 2 lines of HTML on your site, typically near the "Buy" or "Add to Cart" buttons. Make sure to replace `YOUR_PUBLIC_QUALIFICATION_ID` with the ID from Step 1:
+3. Click **"Add block"**, then insert these 2 lines of HTML on your site, directly below the product price. Make sure to replace `YOUR_PUBLIC_QUALIFICATION_ID` with the ID from Step 1:
 
 ```html
 <div id="truemed-instructions" style="font-size: 14px;" icon-height="12" data-public-id="YOUR_PUBLIC_QUALIFICATION_ID"></div>
