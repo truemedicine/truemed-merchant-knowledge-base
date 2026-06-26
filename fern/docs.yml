@@ -190,6 +190,7 @@ navigation:
           - page: HSA/FSA Ad Templates for BFCM and Year-End Promotions
             path: ./pages/hidden/hsa-fsa-ad-templates-for-bfcm-and-year-end-promotions.mdx
           - page: The Q4 Opportunity & Optimization Checklist
+            slug: the-q4-opportunity-and-optimization-checklist
             path: ./pages/hidden/the-q4-opportunity-and-optimization-checklist.mdx
           - page: Truemed Launch Toolkit
             path: ./pages/hidden/truemed-launch-toolkit.mdx
