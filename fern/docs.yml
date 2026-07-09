@@ -153,6 +153,9 @@ navigation:
         hidden: true
         slug: resources
         contents:
+          - page: Resources Library
+            slug: overview
+            path: ./pages/hidden/resources-overview.mdx
           - page: Product Page Widget
             path: ./pages/hidden/product-page-widget.mdx
           - page: Order Confirmation Widget
@@ -341,6 +344,9 @@ navigation:
         hidden: true
         slug: service-business
         contents:
+          - page: Service Business Guide Library
+            slug: overview
+            path: ./pages/hidden/service-business/overview.mdx
           - page: "Welcome to Truemed: How It Works"
             path: ./pages/hidden/service-business/welcome-to-truemed-how-it-works.mdx
           - page: The Customer Journey
