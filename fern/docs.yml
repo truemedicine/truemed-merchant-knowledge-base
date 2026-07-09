@@ -341,12 +341,10 @@ navigation:
           - page: "Step 5: Learning About Partial Eligibility"
             path: ./pages/hidden/step-5-learning-about-partial-eligibility.mdx
       - section: Service Business Guide
+        path: ./pages/hidden/service-business/library.mdx
         hidden: true
         slug: service-business
         contents:
-          - page: Service Business Guide Library
-            slug: library
-            path: ./pages/hidden/service-business/library.mdx
           - page: "Welcome to Truemed: How It Works"
             path: ./pages/hidden/service-business/welcome-to-truemed-how-it-works.mdx
           - page: The Customer Journey
@@ -439,6 +437,9 @@ colors:
   accent-primary:
     light: "#06576F"
 redirects:
+  - source: "/service-business/library"
+    destination: "/service-business"
+    permanent: true
   # 2026-05 nav restructure: Customer Journey articles moved to Customer Experience sub
   - source: "/getting-started/payment-integration/customer-journey-reimbursements"
     destination: "/getting-started/customer-experience/customer-journey-reimbursements"
