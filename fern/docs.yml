@@ -340,7 +340,7 @@ navigation:
             path: ./pages/hidden/step-4-refunds-and-reimbursement.mdx
           - page: "Step 5: Learning About Partial Eligibility"
             path: ./pages/hidden/step-5-learning-about-partial-eligibility.mdx
-      - section: Service Business Guide
+      - section: Launch Toolkit
         path: ./pages/hidden/service-business/library.mdx
         hidden: true
         slug: service-business
