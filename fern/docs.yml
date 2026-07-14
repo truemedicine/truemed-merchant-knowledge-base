@@ -353,9 +353,6 @@ navigation:
             path: ./pages/hidden/service-business/marketing-playbook-a-successful-launch.mdx
           - page: "Staff Resources: About Truemed"
             path: ./pages/hidden/service-business/staff-resources-about-truemed.mdx
-          - page: FAQs - Questions Your Customers Might Ask
-            slug: faqs-questions-your-customers-might-ask
-            path: ./pages/hidden/service-business/faqs-questions-your-customers-might-ask.mdx
           - page: HSA/FSA Landing Page
             slug: sb-hsa-fsa-landing-page
             path: ./pages/hidden/service-business/sb-hsa-fsa-landing-page.mdx
@@ -738,7 +735,7 @@ redirects:
     destination: "/service-business/using-truemed-in-targeted-advertising"
     permanent: true
   - source: "/en/articles/4607297"
-    destination: "/service-business/faqs-questions-your-customers-might-ask"
+    destination: "/service-business"
     permanent: true
   - source: "/en/articles/4607361"
     destination: "/service-business/sb-hsa-fsa-landing-page"
