@@ -382,7 +382,7 @@ navigation:
           - page: Q4 Promotion
             slug: sb-q4-promotion
             path: ./pages/hidden/service-business/sb-q4-promotion.mdx
-          - page: Inserting HSA/FSA Messaging into Existing Email Flows
+          - page: HSA/FSA Lifecycle Flows
             path: ./pages/hidden/service-business/inserting-hsa-fsa-messaging-into-existing-email-flows.mdx
           - page: HSA/FSA Headers & Footers
             slug: hsa-fsa-headers-and-footers
@@ -396,7 +396,7 @@ navigation:
           - page: Watch Our Q4 Webinar
             slug: watch-our-q4-webinar
             path: ./pages/hidden/service-business/watch-our-q4-webinar.mdx
-          - page: HSA/FSA Ad Templates for Year-End Promotions
+          - page: Year-End HSA/FSA Ad Templates
             slug: sb-hsa-fsa-ad-templates-for-year-end-promotions
             path: ./pages/hidden/service-business/sb-hsa-fsa-ad-templates-for-year-end-promotions.mdx
           - page: New Year, New You Email Templates
