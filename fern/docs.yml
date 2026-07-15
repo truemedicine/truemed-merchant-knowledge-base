@@ -94,6 +94,8 @@ navigation:
                 path: ./pages/implementation/reimbursements/in-store-reimbursements.mdx
       - section: Implementation
         contents:
+          - page: Launch Toolkit
+            path: ./pages/hidden/truemed-launch-toolkit.mdx
           - section: Website Readiness
             contents:
               - page: Website Readiness
@@ -143,12 +145,6 @@ navigation:
             path: ./pages/staff-training/refunds-returns-disputes.mdx
           - page: When to Escalate to Truemed
             path: ./pages/staff-training/when-to-escalate-to-truemed.mdx
-      - section: Resources EN
-        hidden: true
-        slug: en/resources
-        contents:
-          - page: Truemed Launch Toolkit
-            path: ./pages/hidden/truemed-launch-toolkit.mdx
       - section: Resources
         hidden: true
         slug: resources
@@ -195,8 +191,6 @@ navigation:
           - page: The Q4 Opportunity & Optimization Checklist
             slug: the-q4-opportunity-and-optimization-checklist
             path: ./pages/hidden/the-q4-opportunity-and-optimization-checklist.mdx
-          - page: Truemed Launch Toolkit
-            path: ./pages/hidden/truemed-launch-toolkit.mdx
           - page: Media Kit
             path: ./pages/hidden/media-kit.mdx
           - page: Reimbursement Attribution
@@ -937,7 +931,10 @@ redirects:
     destination: "/resources/add-hsa-fsa-eligible-filters-or-badges-to-your-products"
     permanent: true
   - source: "/en/articles/7543425"
-    destination: "/resources/truemed-launch-toolkit"
+    destination: "/implementation/launch-toolkit"
+    permanent: true
+  - source: "/articles/7543425"
+    destination: "/implementation/launch-toolkit"
     permanent: true
   - source: "/en/articles/7986049"
     destination: "/service-business/sb-q4-optimization-checklist"
@@ -1045,6 +1042,10 @@ redirects:
     destination: "/service-business/welcome-to-truemed-how-it-works"
     permanent: true
   - source: "/en/resources/truemed-launch-toolkit"
-    destination: "https://support.truemed.com/resources/truemed-launch-toolkit"
+    destination: "/implementation/launch-toolkit"
     permanent: true
+  # 2026-07 unhide: Launch Toolkit moved out of hidden Resources into Implementation.
+  # Non-permanent while we verify the move; flip to permanent: true once confirmed.
+  - source: "/resources/truemed-launch-toolkit"
+    destination: "/implementation/launch-toolkit"
 
