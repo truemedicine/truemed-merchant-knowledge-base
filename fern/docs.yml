@@ -383,6 +383,7 @@ navigation:
             slug: sb-q4-promotion
             path: ./pages/hidden/service-business/sb-q4-promotion.mdx
           - page: HSA/FSA Lifecycle Flows
+            slug: inserting-hsa-fsa-messaging-into-existing-email-flows
             path: ./pages/hidden/service-business/inserting-hsa-fsa-messaging-into-existing-email-flows.mdx
           - page: HSA/FSA Headers & Footers
             slug: hsa-fsa-headers-and-footers
