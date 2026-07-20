@@ -343,6 +343,8 @@ navigation:
             path: ./pages/hidden/service-business/welcome-to-truemed-how-it-works.mdx
           - page: The Customer Journey
             path: ./pages/hidden/service-business/the-customer-journey.mdx
+          - page: Common Customer Questions
+            path: ./pages/hidden/service-business/common-customer-questions.mdx
           - page: "Marketing Playbook: A Successful Launch"
             path: ./pages/hidden/service-business/marketing-playbook-a-successful-launch.mdx
           - page: "Staff Resources: About Truemed"
