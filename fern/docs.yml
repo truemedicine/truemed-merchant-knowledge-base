@@ -106,6 +106,8 @@ navigation:
                 path: ./pages/implementation/website-readiness/consideration.mdx
               - page: Conversion
                 path: ./pages/implementation/website-readiness/conversion.mdx
+          - page: Compliant Messaging
+            path: ./pages/implementation/compliant-messaging.mdx
       - section: Truemed Dashboard
         contents:
           - page: SKUs
@@ -297,8 +299,6 @@ navigation:
             path: ./pages/hidden/fsa-expiration-email-templates.mdx
           - page: Open Enrollment Overview and Email Campaign Templates
             path: ./pages/hidden/open-enrollment-overview-and-email-campaign-templates.mdx
-          - page: Compliant HSA/FSA Messaging
-            path: ./pages/hidden/compliant-hsa-fsa-messaging.mdx
           - page: Updating Account Details
             path: ./pages/hidden/updating-account-details.mdx
           - page: Updating Your Linked Bank Account
@@ -431,6 +431,10 @@ colors:
   accent-primary:
     light: "#06576F"
 redirects:
+  # 2026-07 compliant messaging guide unhidden and moved under Implementation
+  - source: "/resources/compliant-hsa-fsa-messaging"
+    destination: "/compliant-messaging"
+    permanent: true
   - source: "/service-business/library"
     destination: "/service-business"
     permanent: true
@@ -666,7 +670,7 @@ redirects:
     destination: "/resources/truemed-dashboard-how-to-add-a-user-to-your-account"
     permanent: true
   - source: "/en/articles/2489153"
-    destination: "/resources/compliant-hsa-fsa-messaging"
+    destination: "/compliant-messaging"
     permanent: true
   - source: "/en/articles/2567233"
     destination: "/account-management/staff-resources-training/how-truemed-works-team-overview"
