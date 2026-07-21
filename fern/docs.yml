@@ -106,17 +106,17 @@ navigation:
                 path: ./pages/implementation/website-readiness/consideration.mdx
               - page: Conversion
                 path: ./pages/implementation/website-readiness/conversion.mdx
+          - section: Q4 Playbook
+            slug: q4-playbook
+            contents:
+              - page: Overview
+                slug: overview
+                path: ./pages/q4-playbook/overview.mdx
+              - page: Black Friday / Cyber Monday
+                slug: bfcm
+                path: ./pages/q4-playbook/bfcm.mdx
           - page: Compliant Messaging
             path: ./pages/implementation/compliant-messaging.mdx
-      - section: Q4 Playbook
-        slug: q4-playbook
-        contents:
-          - page: Overview
-            slug: overview
-            path: ./pages/q4-playbook/overview.mdx
-          - page: Black Friday / Cyber Monday
-            slug: bfcm
-            path: ./pages/q4-playbook/bfcm.mdx
       - section: Truemed Dashboard
         contents:
           - page: SKUs
