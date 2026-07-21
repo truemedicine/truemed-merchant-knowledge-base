@@ -7,7 +7,7 @@ Overview**
 
 This widget educates customers about HSA/FSA eligibility, and indicates that they might qualify for HSA/FSA spending or reimbursement with their purchase.
 
-It should be installed on your product pages, typically near the price or "Add to Cart" button:
+It should be installed on your product pages, directly below the product price:
 
 ![](https://cdn.applied.guide/media/886214b8-01bd-4c9d-8591-1d6ccbcc8c0e/b3b8d97d-c469-4c96-b889-09699c5bcbd2.png)
 
@@ -21,7 +21,7 @@ It should be installed on your product pages, typically near the price or "Add t
 
    ![](https://cdn.applied.guide/media/886214b8-01bd-4c9d-8591-1d6ccbcc8c0e/6bff96ed-8ef1-47a6-ab53-9af3cdec0dc3.png)
 
-3. Click **“Add block”**, then insert these 2 lines of HTML on your site, typically near the "Buy" or "Add to Cart" buttons (make sure to replace `YOUR_PUBLIC_QUALIFICATION_ID` with the ID found in Step 1):
+3. Click **“Add block”**, then insert these 2 lines of HTML on your site, directly below the product price (make sure to replace `YOUR_PUBLIC_QUALIFICATION_ID` with the ID found in Step 1):
 
    ```
 
