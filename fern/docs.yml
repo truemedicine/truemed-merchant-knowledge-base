@@ -108,6 +108,8 @@ navigation:
                 path: ./pages/implementation/website-readiness/conversion.mdx
           - page: Compliant Messaging
             path: ./pages/implementation/compliant-messaging.mdx
+          - page: Media Kit
+            path: ./pages/hidden/media-kit.mdx
       - section: Truemed Dashboard
         contents:
           - page: SKUs
@@ -193,8 +195,6 @@ navigation:
           - page: The Q4 Opportunity & Optimization Checklist
             slug: the-q4-opportunity-and-optimization-checklist
             path: ./pages/hidden/the-q4-opportunity-and-optimization-checklist.mdx
-          - page: Media Kit
-            path: ./pages/hidden/media-kit.mdx
           - page: Reimbursement Attribution
             path: ./pages/hidden/reimbursement-attribution.mdx
           - page: Custom API Integration
@@ -685,7 +685,9 @@ redirects:
     destination: "/resources/overview"
     permanent: true
   - source: "/en/articles/2591361"
-    destination: "/resources/media-kit"
+    destination: "/implementation/media-kit"
+  - source: "/resources/media-kit"
+    destination: "/implementation/media-kit"
     permanent: true
   - source: "/en/articles/2591425"
     destination: "/resources/payment-integration-customer-journey"
