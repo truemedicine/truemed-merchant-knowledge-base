@@ -121,6 +121,9 @@ navigation:
             path: ./pages/hidden/media-kit.mdx
       - section: Truemed Dashboard
         contents:
+          - page: Dashboard Overview
+            path: ./pages/dashboard/dashboard-overview-payments.mdx
+            hidden: true
           - page: SKUs
             path: ./pages/dashboard/skus.mdx
           - page: Qualifications
