@@ -124,6 +124,9 @@ navigation:
           - page: Dashboard Overview
             path: ./pages/dashboard/dashboard-overview-payments.mdx
             hidden: true
+          - page: Dashboard Overview for Payment API Merchants
+            path: ./pages/dashboard/dashboard-overview-api.mdx
+            hidden: true
           - page: SKUs
             path: ./pages/dashboard/skus.mdx
           - page: Qualifications
