@@ -1,30 +1,35 @@
 ---
-title: Dashboard Overview for Hybrid Merchants
-slug: dashboard-overview-hybrid
-description: A tour of the Truemed Dashboard for hybrid merchants who sell subscriptions, covering Home, Payments, Qualifications, Products, Support, and Settings.
+title: Dashboard Overview for Post-Purchase Reimbursement Merchants
+slug: dashboard-overview-reimbursements
+description: A tour of the Truemed Dashboard for post-purchase reimbursement merchants, covering Home, Qualifications, Products, Support, and Settings.
 ---
 
-The Truemed Dashboard at [app.truemed.com](https://app.truemed.com) is where you monitor performance, review payments and qualifications, manage your product catalog, and control account settings. This guide walks through each section for hybrid merchants, who combine a payment integration with post-purchase reimbursements and sell subscription products.
+The Truemed Dashboard at [app.truemed.com](https://app.truemed.com) is where you monitor performance, review qualifications, manage your product catalog, and control account settings. This guide walks through each section for merchants running post-purchase reimbursements, where customers complete the clinical intake form after their purchase so qualified customers can use HSA/FSA funds.
 
 <Note>
-This overview is for **hybrid** merchants. If you use only the Shopify payment app, see the [Shopify](/dashboard-overview-payments) overview; if you use the payment API, see the [API](/dashboard-overview-api) overview; if you run post-purchase reimbursements only, see the [Post-Purchase Reimbursements](/dashboard-overview-reimbursements) overview.
+This overview is for **post-purchase reimbursement** merchants. If you also take payments through Truemed, see the [Hybrid](/dashboard-overview-hybrid) overview.
 </Note>
 
 ***
 
 ## Home
 
-When you sign in at [app.truemed.com](https://app.truemed.com), you land on the **Home** page. Because your account combines both integrations, Home reports on payments and post-purchase reimbursements side by side.
+When you sign in at [app.truemed.com](https://app.truemed.com), you land on the **Home** page. It shows the most important transaction data for your Truemed account.
 
-At the top of the page you can set the **Date Range**, choose a period to **Compare to**, and set the **Date Granularity**. A banner shows your all-time totals, broken out by integration: **Transactions (Reimbursements)**, **Transactions (Payments)**, **Revenue (Payments)**, and **AOV (Payments)**.
+At the top of the page you can control the view:
 
-Below that, the **Payments & Reimbursements** area shows:
+- **Date Range**: choose the period you want to see, for example the past 90 days
+- **Compare to**: compare that period against the previous period
+- **Date Granularity**: set how the data is grouped over time
 
-- **Total Transactions**: a trend chart splitting Payment Integration from Post-Purchase Reimbursement
-- **Total Transactions by Integration**: the same split as a share breakdown
+A banner shows your **All-Time Transactions**. Below it, a set of cards shows the metrics for the period you selected:
+
+- **Transactions**: the count for the selected period, with the change from the comparison period
 - **LMN Approval Rate**
 
-![Truemed Dashboard Home page for a hybrid merchant, showing payments and reimbursements](./images/dashboard-hybrid-home.png)
+A **Transactions** chart at the bottom plots your current period against the comparison period so you can see the trend over time.
+
+![Truemed Dashboard Home page for a post-purchase reimbursement merchant, showing all-time transactions, period metrics, and the transactions trend chart](./images/dashboard-reimbursements-home.png)
 
 <Note>
 LMN approval rates are provided for your team's internal use only. Because they relate to a telehealth process, please keep them internal.
@@ -32,28 +37,11 @@ LMN approval rates are provided for your team's internal use only. Because they 
 
 ***
 
-## Payments
-
-The **Payments** page shows every payment attempt customers have made using the Truemed payment option. For each attempt you can see the customer name and email, the date, the status, and the total order amount. Use the search box to find a specific order, or click **Download Report** to export the list.
-
-Each payment attempt carries one of the following statuses:
-
-| Status         | What it means                                                        |
-| -------------- | -------------------------------------------------------------------- |
-| **Incomplete** | The customer did not enter their credit card details                 |
-| **Processing** | The order has been authorized but not yet captured                   |
-| **Captured**   | The funds have been captured successfully                            |
-| **Refunded**   | Part or all of the order has been refunded on your end               |
-
-![Truemed Dashboard Payments page listing customer payment attempts and statuses](./images/dashboard-payments.png)
-
-***
-
 ## Qualifications
 
-The **Qualifications** page is where you share your qualification link and review the qualification and Letter of Medical Necessity (LMN) requests tied to your customers' purchases. For subscription products, each purchase that runs through post-purchase qualification appears here.
+The **Qualifications** page is where you share your qualification link and review the qualification and Letter of Medical Necessity (LMN) requests tied to your customers' purchases. Each purchase that runs through post-purchase qualification appears here.
 
-At the top, the **Qualification Link** section holds the link you share with customers so qualified customers can use HSA/FSA funds on your products. Use the copy button to grab it.
+At the top, the **Qualification Link** section holds the link you share with customers so qualified customers can use HSA/FSA funds on your products. Use the copy button to grab it. This link should typically be shared in post-purchase placements, such as the order confirmation page or a post-purchase email.
 
 The **Qualifications** table below lists the requests submitted by your users. For each one you can see:
 
@@ -126,7 +114,7 @@ Each link opens in a new tab.
 Click **My Account** in the top right corner and select **Settings** to manage account details. Settings has three tabs:
 
 - **Members**: everyone who has access to your Truemed Dashboard, along with their name, email, and role.
-- **Payment Method**: the card on file for your account. As a subscription merchant, you add a payment method here to cover the cost of the Letters of Medical Necessity issued for your subscription purchases.
+- **Payment Method**: the card on file for your account. You add a payment method here to cover the cost of the Letters of Medical Necessity issued for your customers' qualifications.
 - **Public ID**: view and copy your public qualification ID when you need to share it.
 
 ![Truemed Dashboard Settings page showing the Payment Method tab](./images/dashboard-hybrid-settings.png)

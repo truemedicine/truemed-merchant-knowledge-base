@@ -80,7 +80,41 @@ Once submitted, the product is reviewed for eligibility and compliance by the Tr
 
 ![Truemed Dashboard Add Product form](./images/dashboard-add-product.png)
 
-For step-by-step upload instructions and what each eligibility status means, see [SKUs](/skus).
+### Keeping your SKUs current
+
+Truemed uses your SKU as the primary identifier to verify eligibility at checkout, so keeping this list current is the most important thing you can do to make sure customers see accurate eligibility on your store. When a customer tries to check out with a product that has not been categorized, it defaults to ineligible until the Truemed compliance team reviews it.
+
+Upload your product list on a regular cadence (monthly or quarterly), whenever you launch new products, and any time a customer reports a product showing as ineligible at checkout.
+
+To prepare your list in Shopify:
+
+1. Log in to your Shopify dashboard
+2. Click the **Products** tab
+3. In the upper right, click **Export**
+4. Select **All Products** and **Plain CSV File**
+5. Click **Export Products**
+
+<Warning>
+Make sure all product variants have a **Variant SKU** assigned before exporting. Items missing a SKU are skipped on upload.
+</Warning>
+
+Then upload the file from the **Products** tab using **Upload CSV**, or use **Add Product** to add SKUs individually. Both Owners and Staff can upload, view, and download SKU data.
+
+![Truemed Dashboard Products tab with SKU upload](./images/skus-products-tab.png)
+
+Once uploaded, each product is assigned an eligibility status:
+
+| Status                      | What it means                                                     |
+| --------------------------- | ----------------------------------------------------------------- |
+| **Awaiting Review**         | Submitted and pending review by the Truemed compliance team       |
+| **Approved (requires LMN)** | May be HSA/FSA eligible with a Letter of Medical Necessity        |
+| **Pre-approved**            | Eligible without an LMN, no clinical intake form needed           |
+| **Partial Eligibility**     | Only part of the item qualifies; details are specified in the LMN |
+| **Ineligible**              | Not approved for HSA/FSA spending                                 |
+
+<Note>
+Eligibility must be verified and assigned by Truemed's compliance team. You cannot manually tag products as HSA/FSA eligible in Shopify, and new products stay ineligible until the compliance team reviews them.
+</Note>
 
 ***
 
@@ -108,7 +142,11 @@ Click **My Account** in the top right corner and select **Settings** to manage a
 
 ![Truemed Dashboard Settings page showing the Members list and Public ID tab](./images/dashboard-settings.png)
 
-For how to update your card on file, payout bank account, and other account details, see [Account Settings](/account-settings).
+### Updating account details
+
+- **Card on file.** In the Truemed Dashboard, select **Settings** in the top right, click **Payment Method**, and update it. Only account Owners can update payment methods.
+- **Linked bank account.** Your payout bank account is managed in your Truemed-linked Stripe account. Click the profile icon, select **Payout Details**, click the edit icon next to your current bank account, then enter and save your new details. Only users with admin access to your Stripe account can update payout information.
+- **Business details.** Business information like your industry or EIN is managed in your Truemed-linked Stripe account, under **Platform Settings** in the **Business Details** section.
 
 ***
 

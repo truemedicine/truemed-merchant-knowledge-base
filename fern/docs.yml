@@ -121,21 +121,14 @@ navigation:
             path: ./pages/hidden/media-kit.mdx
       - section: Truemed Dashboard
         contents:
-          - page: Dashboard Overview
+          - page: Shopify
             path: ./pages/dashboard/dashboard-overview-payments.mdx
-            hidden: true
-          - page: Dashboard Overview for Payment API Merchants
+          - page: API
             path: ./pages/dashboard/dashboard-overview-api.mdx
-            hidden: true
-          - page: Dashboard Overview for Hybrid Merchants
+          - page: Post-Purchase Reimbursements
+            path: ./pages/dashboard/dashboard-overview-reimbursements.mdx
+          - page: Hybrid
             path: ./pages/dashboard/dashboard-overview-hybrid.mdx
-            hidden: true
-          - page: SKUs
-            path: ./pages/dashboard/skus.mdx
-          - page: Qualifications
-            path: ./pages/dashboard/qualifications.mdx
-          - page: Account Settings
-            path: ./pages/account-management/account-settings.mdx
       - section: Troubleshooting
         contents:
           - section: Account & Setup
@@ -517,8 +510,18 @@ redirects:
     destination: "/setup/post-purchase-reimbursements/in-store-irl-reimbursements"
     permanent: true
   # 2026-05 nav restructure: Account Settings → Truemed Dashboard
+  # 2026-07 restructure: SKUs, Qualifications, and Account Settings merged into the per-integration dashboard overviews
   - source: "/account-management/account-settings"
-    destination: "/truemed-dashboard/account-settings"
+    destination: "/dashboard-overview-payments"
+    permanent: true
+  - source: "/truemed-dashboard/account-settings"
+    destination: "/dashboard-overview-payments"
+    permanent: true
+  - source: "/skus"
+    destination: "/dashboard-overview-payments"
+    permanent: true
+  - source: "/truemed-dashboard/qualifications"
+    destination: "/dashboard-overview-reimbursements"
     permanent: true
   # 2026-05 nav restructure: Account Management → Staff Training & FAQs (slug: staff-training)
   - source: "/account-management/staff-resources-training/how-truemed-works-team-overview"
