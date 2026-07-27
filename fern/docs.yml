@@ -521,7 +521,7 @@ redirects:
     destination: "/dashboard-overview-payments"
     permanent: true
   - source: "/truemed-dashboard/qualifications"
-    destination: "/dashboard-overview-reimbursements"
+    destination: "/dashboard-overview-payments"
     permanent: true
   # 2026-05 nav restructure: Account Management → Staff Training & FAQs (slug: staff-training)
   - source: "/account-management/staff-resources-training/how-truemed-works-team-overview"
