@@ -115,6 +115,12 @@ navigation:
               - page: Black Friday / Cyber Monday
                 slug: bfcm
                 path: ./pages/q4-playbook/bfcm.mdx
+              - page: FSA Expiration
+                slug: fsa-expiration
+                path: ./pages/q4-playbook/fsa-expiration.mdx
+              - page: New Year, New You
+                slug: new-year-new-you
+                path: ./pages/q4-playbook/new-year-new-you.mdx
           - page: Compliant Messaging
             path: ./pages/implementation/compliant-messaging.mdx
           - page: Media Kit
